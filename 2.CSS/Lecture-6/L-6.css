@@ -1,0 +1,296 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+
+/* CSS POSITION */
+
+.fixed{
+    height: 100PX;
+    width: 100PX;
+    background-color: brown;
+    position:fixed;
+    justify-content: center;
+    display: flex;
+    right:0;
+}  
+
+.maindiv
+{
+    position: relative;
+    width: 1000px;
+    border: 2px solid black;
+    height: 1000px;
+}
+
+.maindiv .box-1
+{
+    height: 100px;
+    width: 100px;
+} 
+    
+
+.maindiv div:nth-child(1){
+  background-color: aqua;
+  position: absolute;
+  bottom:0;
+}
+
+
+.maindiv div:nth-child(2){
+    background-color:chocolate;
+    position: absolute;
+    right:0;  
+}
+
+
+.maindiv div:nth-child(3){
+   background-color: burlywood;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+}
+
+
+.maindiv div:nth-child(4){
+   background-color: cornflowerblue;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   margin:auto;
+}
+
+
+.maindiv div:nth-child(5){
+   background-color: darkgrey;
+   position: absolute;
+   left:0;
+   right: 0;
+   margin:auto;
+}
+
+
+.maindiv div:nth-child(6){
+   background-color: purple;
+   position: absolute;
+   bottom: 0;
+   top:0;
+   left:0;
+   right: 0;
+   margin:auto;
+}
+
+.maindiv div:nth-child(7){
+   background-color: yellow;
+   position: absolute;
+   top:0;
+   bottom:0;
+   left:0;
+   margin:auto;
+}
+
+
+.maindiv div:nth-child(8){
+    background-color: darkseagreen;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.maindiv div:nth-child(9){
+  background-color: deeppink;
+  position: absolute;
+}
+
+
+/* Z-index properties */
+
+.box-3
+{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    position: absolute;
+    z-index: -2;
+}
+
+
+/* float properties */
+
+
+/* css clear properties */
+
+
+/* overflow properties */
+
+.overflow
+{
+    height: 400px;
+    width: 800px;
+    overflow-y:visible;
+}
+
+textarea
+{
+    resize: none;
+}
+
+
+/* css curser properties */
+
+.alias
+{
+    cursor :alias;
+}
+.all-scroll
+{
+    cursor: all-scroll;
+}
+.auto
+{
+    cursor: auto;
+}
+.cell
+{
+    cursor:cell;
+}
+.context-menu
+{
+    cursor: context-menu;
+}
+.col-resize
+{
+    cursor: col-resize;
+}
+.copy
+{
+    cursor: copy;
+}
+.crosshair
+{
+    cursor: crosshair;
+}
+.default
+{
+    cursor: default;
+}
+.r-resize
+{
+    cursor: r-resize;
+}
+.grab
+{
+    cursor: grab;
+}
+.grabbing
+{
+    cursor: grabbing;
+}
+.help
+{
+    cursor: help;
+}
+.move
+{
+    cursor: move;
+}
+.n-resize
+{
+    cursor: n-resize;
+}
+.ne-resize
+{
+    cursor: ne-resize;
+}
+.new-resize
+{
+    cursor: new-resize;
+}
+.ns-resize
+{
+    cursor: ns-resize;
+}
+.nw-resize
+{
+    cursor: nw-resize;
+}
+.nwse-resize
+{
+    cursor: nwse-resize;
+}
+.no-drop
+{
+    cursor: no-drop;
+}
+.none
+{
+    cursor: none;
+}
+.not-allowed
+{
+    cursor: not-allowed;
+}
+.pointer
+{
+    cursor: pointer;
+}
+.progress
+{
+    cursor: progress;
+}
+.row-resize
+{
+    cursor: row-resize;
+}
+.s-resize
+{
+    cursor: s-resize;
+}
+.se-resitextze
+{
+    cursor: se-resitextze;
+}
+.text
+{
+    cursor: text;
+}
+.url
+{
+    cursor: url;
+}
+.w-resize
+{
+    cursor: w-resize;
+}
+.wait
+{
+    cursor: wait;
+}
+.zoom-in
+{
+    cursor: zoom-in;
+}
+.zoom-out
+{
+    cursor: zoom-out;
+}
+
+/* css object-fit properties */
+
+/* fill / contain / cover / scale-down / none*/
+
+img
+{
+    object-fit:contain;
+    object-position: left;
+}

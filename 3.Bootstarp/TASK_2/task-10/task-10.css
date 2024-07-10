@@ -1,0 +1,22 @@
+nav
+{
+  position: fixed;
+  top: 0;
+}
+.offcanvas
+{
+  position: absolute;
+}
+ul{
+  list-style: none;
+}
+
+.navbar
+{
+  position: fixed;
+  top: 0;
+}
+.offcanvas-body
+{
+position: absolute;
+}

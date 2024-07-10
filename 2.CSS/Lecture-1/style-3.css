@@ -1,0 +1,96 @@
+  /* body{
+    background-color: orange;
+} 
+
+ .box-1{
+    height: 100px;
+    width: 100px;
+    background-color:
+    black;
+    border: 15px solid pink;
+}   
+
+body{
+    background-color: skyblue;
+    color: brown;
+}  */
+
+/* css resetting properties value */
+
+
+
+/* universal selector */
+
+ /* *{
+    background-color: green;
+    color: aqua;
+}
+p{
+    background-color: red; 
+}*/
+
+
+/* 1. simple tag selector */
+/*  
+h1{
+    color: blueviolet;
+}  */
+
+
+/* 2. css class selector */
+/*  
+.classroom
+{
+    color: brown;
+}  */
+
+/* 3. unique id selector */
+/* 
+#div1{
+    color: red;
+}
+
+.p1 ,.span ,.div{
+    color: pink;
+
+} */
+
+/* 1.Desecendent selector */
+div span p{
+   color: darkblue;
+   background-color: grey;
+   border-radius: 10px;
+}
+
+/* 2.child selector */
+div > span >p{
+    color: darkcyan;
+    background-color:darkviolet;
+}
+
+/* 3.Adjuacent sibiling selector */
+/* 4.General sibiling selector */
+
+/* link selector */
+/* 
+ a:link{
+    background-color: blue;
+    color: red;
+} 
+
+a:active{
+    background-color: blanchedalmond;
+    color: blueviolet;
+}
+
+a:hover{
+    background-color: grey;
+    color: green;
+}
+ 
+a:visited{
+    background-color: aqua;
+    color: black;
+}  */
+
+

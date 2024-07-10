@@ -1,0 +1,11 @@
+.one
+{
+    max-width: 400px;
+    max-height: 500px;
+}
+.two
+{
+    max-width: 400px;
+    max-height: 500px;
+    border: 2px solid black;
+}

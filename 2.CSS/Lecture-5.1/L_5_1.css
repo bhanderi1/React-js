@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+
+
+
+/* css flex properties
+   css flex-box */
+
+
+
+/* Css flex-box / flex-container properties */
+
+/* 
+    flex-wrap:wrap;
+    flex-wrap:nowrap;
+    flex-wrap:warp-reverse;
+
+    flex-direction:row;
+    flex-direction:row-reverse;
+    flex-direction:column;
+    flex-direction:column-reverse;
+
+    justify-content:flex-start;
+    justify-content:flex-end;
+    justify-content:center;
+    justify-content:space-between;
+    justify-content:space-around;
+    justify-content:space-evenly;
+
+    align-items:flex-start;
+    align-items:flex-end;
+    align-items:center;
+
+    align-self:flex-start;
+    align-self:flex-end;
+    align-self:center;
+    align-self:start;
+    align-self:end;
+    align-self:self-start;
+    align-self:self-end;
+    
+    flex-flow:colum wrap;
+    flex-flow:row-reverse warp-reverse;
+*/
+
+/* flex  order properties*/
+
+header
+{
+    margin-bottom: 100px;
+}
+/* 
+.maindiv
+{
+    max-width: 1600px;
+    height: 500px;
+    display: flex;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.logo
+{
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+    border: 2px solid black;
+    font-size: 50px;
+    align-self: self-start;
+
+}  */
+
+
+.box
+{
+    height: 100vh;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: start;
+    margin: auto;
+    flex-flow: row-reverse;
+   
+}
+
+.box div{
+    font-size: 30px;
+    color: white;
+}
+
+.demo-box1
+{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    /* order: 2;
+     */
+     align-self: self-end;
+}
+
+.demo-box2
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* order: 5; */
+    
+}
+
+.demo-box3
+{
+    width: 100px;
+    height: 100px;
+    /* order: 3; */
+    background-color: brown;
+    
+}
+
+.demo-box4
+{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    /* order: 1; */
+    
+}
+
+.demo-box5
+{
+    width: 100px;
+    height: 100px;
+    background-color:darkmagenta;
+    /* order: 4; */
+    
+}
+
+.demo-box6
+{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    /* order: 6; */
+    
+}
+ 
+.main-order
+{
+    display: flex;
+    align-items: center;
+    border:2px solid black;
+    height: 100vh;
+    overflow:visible; 
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.order-1
+{
+    border: 2px solid red;
+    margin:10px;
+    height: 200px;
+    overflow: hidden;
+    width: 200px;
+    order: 1;
+}  
+
+.order-2{
+    border:2px solid green;
+    height: 100%;
+    margin: 10px;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    order: 2;
+}
+
+.order-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 100%;
+ 
+}
+
+
+/* 
+
+parent properties
+display:flex;
+defult: flex-direction:row;
+row-direction :- justyfy-content properties horizontal movement
+                 align-item properties vertical movement
+
+row-reverse   :-justyfy-content properties horizontal movement
+                 align-item properties vertical movement
+
+flex-direction:colum/ colum-reverse
+
+justyfy-contant properties vertical movement
+align item properties horizontal movement
+
+
+*/

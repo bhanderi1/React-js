@@ -1,0 +1,38 @@
+.bar 
+{
+    font-size: 40px;
+    font-weight: 900px;
+}
+.btn-close
+{
+    color: white;
+}
+
+
+.btn-close {
+    --bs-btn-close-color: #000;
+    --bs-btn-close-bg: url(./close.svg);
+    --bs-btn-close-opacity: 0.5;
+    --bs-btn-close-hover-opacity: 0.75;
+    --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    --bs-btn-close-focus-opacity: 1;
+    --bs-btn-close-disabled-opacity: 0.25;
+    --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 10px;
+    color: var(--bs-btn-close-color);
+    background: transparent var(--bs-btn-close-bg) center/1em auto no-repeat;
+    border: 2px solid white;
+    border-radius: 50px;
+    opacity: var(--bs-btn-close-opacity);
+}
+
+.close-button
+{
+    height: 10px;
+    width: 10px;
+    border: 2px solid white;
+    border-radius: 30%;
+}

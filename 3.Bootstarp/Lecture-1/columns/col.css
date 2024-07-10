@@ -1,0 +1,41 @@
+.container
+{
+    margin-bottom: 20px;
+}
+.row{
+    height: 150px;
+    background-color: pink;
+    color: black;
+    border: 2px solid black;
+}
+.col
+{
+    height: 50px;
+    background-color: blue;
+    border: 2px solid black;
+}
+.col-4
+{
+    height: 50px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+.col-5
+{
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+.col-6
+{
+    height: 50px;
+    background-color:  grey;
+    border: 2px solid black;   
+}
+.col-9
+{
+    height: 50px;
+    background-color: skyblue;
+    border: 2px solid rgb(0, 0, 0);
+}

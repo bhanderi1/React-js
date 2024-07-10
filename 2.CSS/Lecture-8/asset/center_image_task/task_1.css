@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+/* 1 */
+ /* .h-screen
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  */
+
+/* 2 */
+/* .div{
+    display: flex;
+    justify-content: center;
+}
+.overlaydiv
+{
+    display: flex;
+}
+.overlaydiv img
+{
+    max-width: 100%;
+    height: auto;
+} */
+/* 
+.overlaydiv
+{
+    height: 100vh;
+    width: 100wh;
+   display: flex;
+   position: relative;
+   top: 50%;
+   right: 50%;
+   left: 50%;
+   bottom: 50%;
+} 
+
+/* css 3*/
+/* img{
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 80px;
+} */
+
+/* Css4 */
+/* div{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 20%;
+} 
+
+.box{
+    width:200px;
+    height: 200px;
+    position:absolute;
+    top:50%;
+    left: 50%; 
+    margin-right: 20px;
+    transform: translate(-50% -50%);
+    display:flex;
+     
+}
+.box img{
+    width: 200px;
+    height:200px;
+}  */

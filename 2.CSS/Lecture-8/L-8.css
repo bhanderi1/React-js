@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+/* CSS OVERLAY */
+
+.h-screen
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlaydiv
+{
+    height: 600px;
+    width: 600px;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    object-fit: cover;
+}
+.layer
+{
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.layer:hover
+{
+    background-color: black;
+    opacity: 0.7;
+    transition: 2s;
+}
+.layer-text
+{
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    top: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    margin-left: 100px;
+}
+
+.overlaydiv:hover .layer-text h1{
+    display: block;
+    opacity: 1;
+}
+.layer-text h1
+{
+    color: white;
+    text-align: center;
+    display: none;
+    opacity: 0.1;
+    transition: 2s;
+}
+
+/* CSS value and units */
+
+.para
+{
+    font-size: 200%;
+}
+
+p{
+    font-size: 48px;
+}
+
+.back
+{
+    height: 100vh;
+    background-image: url("asset/nature.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:soft-light;
+}

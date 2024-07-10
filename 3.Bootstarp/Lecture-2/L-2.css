@@ -1,0 +1,12 @@
+.row
+{
+   height: 150px;
+   background-color: pink;
+   border: 2px solid black;
+}
+.col
+{
+    height: 50px;
+    background-color: blue;
+    border: 2px solid black;
+}

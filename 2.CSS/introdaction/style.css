@@ -1,0 +1,35 @@
+ .external{
+    color: brown;
+}
+
+
+ .para-1{
+    background-color: red;
+}   
+
+  .section-1 .para-1{
+    background-color: green;
+    color: aqua;
+}  
+
+ p{
+    color: aqua;
+}
+
+div{
+    color: blueviolet;
+}
+
+div{
+    color: red;
+}
+
+div h1 p{
+  color: yellow;
+} 
+
+span ,div ,h1 ,p
+{
+   color:darksalmon;
+   background-color: darkslategray;
+}

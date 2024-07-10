@@ -1,0 +1,39 @@
+.box
+{
+    border: 9px solid white;
+}
+img
+{
+    border-radius: 50%;
+}
+
+
+.accordion-button:not(.collapsed) 
+{
+    color: white;
+    background-color: blueviolet;
+    font-weight: 900;
+}
+
+.accordion-item .accordion-button
+{
+    color: white;
+    background-color: blueviolet;
+    border: 2px solid white;
+}.accordion-button::after {
+    /* flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: var(--bs-accordion-btn-icon);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);*/
+    display: none;
+} 
+
+.accordion-button::before
+{
+    
+}

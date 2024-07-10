@@ -1,0 +1,110 @@
+/* 
+CSS FRONT PROPERTIES
+CSS TEXT PROPERTIES
+CSS VERTICLE ALIGN
+CSS WHITE SPACE
+CSS VISIBIKITY
+*/
+
+ *
+ {
+    box-sizing: border-box;
+ }
+
+ body{
+    margin:0;
+ }
+
+/* css font properties*/
+/* 
+     1.font-family / Google 
+     2.font-size
+     3.font-style
+     4.font-variant
+     5.font-weight
+     6.line-height
+
+ */
+
+ .font-family{
+    font-family:'Courier New', Courier, monospace; 
+    font-size: 5px;
+    font-style:oblique;
+    font-variant:unset;
+    font-weight:lighter;
+    line-height: 30px; 
+ }
+
+ /* Css text-properties*/
+
+ /*  1.Text-color
+     
+     2.text-alignment
+     3.text-decoration
+     
+     4.text-transformation
+     5.text-indentation
+     6.Letter spacing
+     7.Word spacing
+     8.Text-direction
+     9.text-shadow
+ 
+ */
+
+ .text{
+    color: brown;
+    font-size: 20px;
+    text-align:initial;
+
+    text-decoration:overline line-through red; 
+     /* text-decoration: none; */
+    /* text-transform: uppercase; */
+    /* text-indent: 100px; */
+    /* letter-spacing: 0px; */
+    /* word-spacing: 10px; */
+    /* direction: ltr; */
+    /* unicode-bidi:plaintext; */
+    /* text-shadow: 5px 5px 1px green; */ 
+ }
+
+ /* 3.CSS verticle alignment */
+
+ p{
+    font-size: 10px;
+    text-align: unset line-through overline;
+ }
+
+ img
+ {
+    vertical-align:middle;
+ }
+/* 4.white space */
+
+.white-space
+{
+    white-space: pre;
+}
+
+/* 5.CSS visibility */
+
+div{
+    height: 200px;
+    width: 400px;
+    padding: 50px;
+    background-color: orange;
+    text-align: left;
+    visibility:unset;
+}
+
+div p
+{
+   color: yellow;
+}
+
+.box
+{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    visibility: visible;
+}

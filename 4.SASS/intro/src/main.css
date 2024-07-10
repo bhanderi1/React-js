@@ -1,0 +1,30 @@
+.box-1 {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+}
+
+.box-2 {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+
+.box-1 {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+}
+
+.box-2 {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  color: gray;
+}/*# sourceMappingURL=main.css.map */

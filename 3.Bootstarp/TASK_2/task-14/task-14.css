@@ -1,0 +1,63 @@
+.accordion-button:not(.collapsed) {
+    color:rgb(45, 215, 241);
+    background-color: white;
+    box-shadow: inset 0 calc(0* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.accordion-body {
+    border: 2px solid rgb(229, 224, 224);
+    border-radius: 5px;
+}
+
+
+.accordion-body {
+padding:0;
+}
+
+.list-group {
+    --bs-list-group-color: var(--bs-body-color);
+    --bs-list-group-bg: var(--bs-body-bg);
+    --bs-list-group-border-color: none;
+    --bs-list-group-border-width: var(--bs-border-width);
+    --bs-list-group-border-radius: var(--bs-border-radius);
+    --bs-list-group-item-padding-x: 1rem;
+    --bs-list-group-item-padding-y: 0.5rem;
+    --bs-list-group-action-color: var(--bs-secondary-color);
+    --bs-list-group-action-hover-color: var(--bs-emphasis-color);
+    --bs-list-group-action-hover-bg: var(--bs-tertiary-bg);
+    --bs-list-group-action-active-color: var(--bs-body-color);
+    --bs-list-group-action-active-bg: var(--bs-secondary-bg);
+    --bs-list-group-disabled-color: var(--bs-secondary-color);
+    --bs-list-group-disabled-bg: var(--bs-body-bg);
+    --bs-list-group-active-color: #fff;
+    --bs-list-group-active-bg:none;
+    --bs-list-group-active-border-color:none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: var(--bs-list-group-border-radius);
+   overflow: hidden;
+}
+
+ul
+{
+    display: block;
+    list-style-type: none;
+    margin-block-start:0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
+/* 
+.accordion-button:not(.collapsed)::after {
+    background-image: url(arrow.svg);
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.accordion-button::after {
+    
+    background-image: url("arrow.svg");
+    
+} */

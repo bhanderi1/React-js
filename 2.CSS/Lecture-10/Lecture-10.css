@@ -1,0 +1,207 @@
+/* CSS Grid */
+
+/* .grid
+{
+    display: flex;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px;
+    border: 2x solid black;
+}
+.grid-item
+{
+    background-color: rgb(31, 165, 218);
+    border: 1px solid gray;
+    font-size: 30px;
+    text-align: center;
+} */
+
+/* Grid inilne */
+/* .grid-container
+{
+    display: inline-grid;
+    grid-template-columns: auto auto auto ;
+    background-color: rgb(222, 135, 203);
+    padding: 20px;
+}
+.grid-item
+{
+    background-color: rgb(60, 0, 255);
+    border: 1px solid rgb(213, 5, 5);
+    font-size: 30px;
+    text-align: center;
+} */
+
+/* row ,colunm ,gap */
+
+/* column gap */
+/* .grid-container-column
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid: 100px;
+    background-color: rgb(53, 149, 228);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.grid-item{
+    background-color: cyan;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+} */
+
+/* Row gap */
+/* .grid-container-row
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap:100px;
+    background-color: rgb(53, 149, 228);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.grid-item{
+    background-color: cyan;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-container-gap
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:50px;
+    background-color: rgb(53, 149, 228);
+    padding: 20px; 
+}
+.grid-item
+{
+    background-color: cyan;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+} */
+
+/* Grid column line */
+.grid-column-line
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:10px;
+    background-color: rgb(53, 149, 228);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.grid-column-line > div
+{
+    background-color: cyan;
+    border: 1px solid black;
+    padding: 20px 0;
+    font-size: 30px;
+    text-align: center;
+}
+.grid-item1
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.grid-item2
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.grid-item3
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.grid-item4
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.grid-item5
+{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.grid-item6
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.grid-item7
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.grid-item8
+{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+/* Grid row line */
+
+.grid-row-line
+{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+    background-color: #2196F3; 
+    padding: 10px;
+}
+.grid-row-line > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 30px;
+    border:2px solid blue;
+}
+.grid-item11{
+    grid-row-start:1;
+    grid-row-end:2;
+  }
+.grid-item12{
+    grid-row-start:2;
+    grid-row-end:3;
+}
+.grid-item13{
+    grid-row-start:3;
+    grid-row-end:4;
+}
+.grid-item14{
+    grid-row-start:4;
+    grid-row-end: 5;
+}
+.grid-item15{
+    grid-row-start:1;
+    grid-row-end: 5;
+}
+.grid-item16{
+    grid-row-start:1;
+    grid-row-end: 3;
+}
+.grid-item17{
+    grid-row-start:3;
+    grid-row-end: 5;
+}
+.grid-item18{
+    grid-row-start:1;
+    grid-row-end:5;
+}
+.grid-item19{
+    grid-row-start:1;
+}
+.grid-item20{
+    grid-row-start:2;
+}
+.grid-item21{
+    grid-row-start:3;
+}
+.grid-item22{
+    grid-row-start:4;
+}

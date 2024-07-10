@@ -1,0 +1,32 @@
+.box-1 {
+  height: 400px;
+  width: 400px;
+  background-color: red;
+}
+
+.box-2 {
+  height: 400px;
+  width: 400px;
+  background-color: red;
+  background-color: pink;
+  width: 300px;
+  height: 300px;
+}
+
+.box-3 {
+  height: 400px;
+  width: 400px;
+  background-color: red;
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+}
+
+.box-4 {
+  height: 400px;
+  width: 400px;
+  background-color: red;
+  background-color: gray;
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=main.css.map */

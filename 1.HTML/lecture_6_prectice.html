@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lecture 6</title>
+
+     <!-- meta tag-->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width , initial-scale=1.0">
+     <title>HTML</title>
+     <!-- favicone tag-->
+     <link rel="icon" href="asset/instagram.webp" height="20px" width="20px">
+     <!-- <link rel="x-icon" type="image" href="asset/logo.png"> -->
+
+     <style>
+         form{
+             background-color: green;
+             border:2px solid blue;
+             border-radius: 20px;
+             padding: 20px;
+         }
+ 
+         ul li a{
+             text-decoration: none;
+             margin-right: 50px;
+         }
+     </style>
+     
+ </head>
+ <body>
+  <!-- Textarea-->
+
+
+     <textarea cols="50" rows="20" style="resize:vertical"></textarea> <br>
+
+
+    <!-- Select Tag / Inline Tag -->
+
+     <select id="" name="">
+        <option value="">Select Country</option>
+        <option value="" selected>India</option>
+        <option value="">United Kingdom</option>
+        <option value="">United States</option>
+        <option value="">Russia</option>
+        <option value="">Nepal</option> 
+        <option value="">Canada</option>
+    </select>
+<br>
+
+
+   <select disabled>
+      <optgroup name="Browsers" value="Browsers" label="Browsers">
+          <option value="">Crome</option>
+          <option value="">Mozilla firefox</option>
+          <option value="">Internet Explorer</option>
+          <option value="">Opera</option>
+          <option value="">Safari</option>
+    </optgroup>
+      <optgroup name="name" value="name" label="Names">
+         <option value="">Donal</option>
+          <option value="">Vins</option>
+          <option value="">John</option>
+          <option value="">Vivek</option>
+      </optgroup>
+    </select> 
+ 
+
+     <!-- Datalist Tag / Inline Tag  -->
+
+     <input list="browsers" name="" value="" placeholder="Selection Here">
+    <datalist id="browsers">
+        <option value="Crome">
+        <option value="Mozilla firefox">
+        <option value="Internet Explore">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist> 
+
+
+           <table>
+              <tr>
+                   <th style="color:black; background-color: white;">Class</th>
+               </tr>
+            </table> 
+
+
+      <!-- Form Tag -->
+
+    <form>
+            <legend>This is form tag</legend>
+            <figcaption>
+                this is html form
+            </figcaption>
+            <label>First Name:</label>
+            <input type="text"><BR>
+            <label>Last Name</label>
+            <input type="text"><br>
+            <label>Gender:</label>
+            <label>Male</label>
+            <input type="radio" name="gender">
+            <label>Female</label>
+            <input type="radio" name="gender"><br>
+            <label>Select Country:</label>
+            <select id="" name="">
+                <option value="" selected>India</option>
+                <option value="">United Kingdom</option>
+                <option value="">United States</option>
+                <option value="">Russia</option>
+                <option value="">Nepal</option> 
+                <option value="">Canada</option>
+            </select><br>
+            <input type="submit">
+    </form>
+
+      <figure>
+        <img src="asset/Mona_Lisa.jpg" alt="">
+        <figcaption >Artist:Leonardo da Vinci</figcaption>
+    </figure> 
+        
+
+    <!-- Span Tag / Inline Tag -->
+
+     <span>this  is  span tag</span>
+    <span>this  is  span tag</span>6
+    <span>this  is  span tag</span>
+    <span>this  is  span tag</span>
+    <span>this  is  span tag</span>
+    <span>this  is  span tag</span>
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing <span style="background-color:yellow; text-decoration:underline;">elit.</span> Sint, aut eaque vel doloribus facere voluptates placeat cupiditate voluptatum incidunt fuga pariatur assumenda temporibus repellat dicta ullam porro labore. Distinctio, dolore.</p>
+        
+        
+
+    <!-- Iframe Tag -->
+
+     <iframe src="index.html" frameborder="0" height="600px" width="600px"></iframe> 
+
+    <!-- Nav Tag / Blocklevel Tag-->
+
+
+         <nav>
+            <ul style="list-style-type: none; display: flex;">
+                <li><a href="">Home</a></li>
+                <li><a href="">About US</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+         </nav> 
+         
+
+     <!-- <script>
+            function myFunction(){
+                var item =  document.getElementById("selectdemo").value;
+                document.getElementById("demo").innerHTML= item;
+        }
+    </script>     -->
+</body>
+</html>

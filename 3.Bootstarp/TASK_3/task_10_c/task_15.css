@@ -1,0 +1,27 @@
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box
+{
+    max-height: auto;
+    max-width: 450px;
+    background-color: rgb(3, 3, 39);
+    color: white;
+    border-radius: 5px;
+}
+
+.image img{
+    height: 80px;
+    width:80px;
+    border: 1px solid  white;
+    border-radius: 50%;
+    
+}
