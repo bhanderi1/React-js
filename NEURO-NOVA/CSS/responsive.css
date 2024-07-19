@@ -2,44 +2,78 @@
     .container {
         max-width: calc(100% - 12%);
     }
+
     .title-1 {
         font-size: 35px;
     }
+
     .title-2 {
         font-size: 50px;
     }
+
     .at-home {
         font-size: 18px;
     }
+
     .customers-rate {
         margin-left: 20px;
     }
+
     /* section-1 */
     .graphic-img img {
         width: 750px;
     }
+
     /* section-2 */
     .vibry-item {
         max-width: 210px;
     }
+
     .vibry-item img {
         max-width: 209px;
     }
+
     /* section-3 */
     .discover-benefits {
         gap: 10px;
     }
+
     .discover-item {
         width: 160px;
         height: 180px;
         padding: 20px;
     }
+
     .discover-item h3 {
         font-size: 16px;
     }
+
     .mask-img img {
         width: 370px;
         height: 370px;
+    }
+
+    /* section-5 */
+    .section-5-text {
+        width: 60%;
+    }
+
+    .section-5-img {
+        width: 40%;
+    }
+
+    /* section-8 */
+    .images {
+        width: 45%;
+    }
+
+    .Tables-img img {
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    .section-8-text {
+        width: 52%;
     }
 }
 
@@ -48,53 +82,100 @@
     .container {
         max-width: calc(100%-7%);
     }
+
     .header-text {
         margin-left: 0;
     }
+
     .title-1 {
         font-size: 30px;
     }
+
     .title-2 {
         font-size: 42px;
     }
+
     .at-home {
         font-size: 15px;
     }
+
     .shop-now button {
         width: 380px;
     }
+
     .customers-rate {
         margin-left: 0;
     }
+
     .customers-rate p {
         font-size: 14px;
     }
+
     /* section-1 */
     .graphic-img img {
         width: 670px;
     }
+
     /* section-3 */
     .discover-item {
         width: 140px;
         height: 160px;
     }
+
     .discover-item h3 {
         font-size: 14px;
     }
+
     .mask-img img {
         width: 340px;
         height: 330px;
     }
 
+    /* section-5 */
+    .section-5-containet div img {
+        max-width: 300px;
+    }
 
+    .section-5-text {
+        margin-right: 0;
+    }
 
+    /* section-6 */
+    .Post p {
+        font-size: 14px;
+    }
 
+    /* sectin-8 */
+    .section-8-title {
+        font-size: 21px;
+    }
 
-  
+    .Tables-img img {
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .cheack-text {
+        font-size: 13px;
+    }
+
+    .order-text {
+        font-size: 13px;
+    }
+
+    .images {
+        margin-right: 10px;
+    }
+
     /* section-11 */
     .section-11-img img {
         max-width: 380px;
     }
+
 }
 
 
@@ -104,66 +185,132 @@
     .container {
         max-width: calc(100% - 10%);
     }
+
     .header-image img {
         max-width: calc(100% - 2%);
     }
+
     .title-1 {
         font-size: 25px;
         padding-top: 50px;
     }
+
     .title-2 {
         font-size: 35px;
     }
+
     .at-home {
         font-size: 12px;
     }
+
     .customers-rate p {
         font-size: 12px;
 
     }
+
     .shop-now button {
         max-width: 280px;
     }
+
     /* section-1 */
     .section-title-2 {
         font-size: 33px;
     }
+
     .graphic-img img {
         width: 100%;
         margin-bottom: 60px;
     }
+
     /* section-3 */
     .discover-item {
         width: 110px;
         height: 130px;
     }
+
     .discover-item img {
         height: 44px;
         width: 44px;
     }
+
     .discover-item div {
         margin-bottom: 10px;
     }
+
     .discover-item h3 {
         font-size: 12px;
     }
+
     .mask-img img {
         width: 290px;
         height: 280px;
     }
+
     .testmonials:nth-child(4) {
         display: none;
     }
 
+    /* section-5 */
+    .section-5-containet div img {
+        max-width: 250px;
+    }
 
-     
+    .list li {
+        font-size: 12px;
+    }
 
+    .material h3 {
+        font-size: 15px;
+    }
 
+    .section-5-item {
+        padding: 10px;
+    }
+
+    /* section-6 */
+    .current {
+        display: block;
+    }
+
+    .Post {
+        display: flex;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    .Post-content {
+        height: 100px;
+        width: 100px;
+        margin-right: 15px;
+    }
+
+    .Post p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* section-8 */
+    .section-8{
+        display: block;
+    }
+    .section-8-text{
+        width: 100%;
+    }
+    .images {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+   .Tables-img img{
+    max-width: 70px;
+    max-height: 70px;
+   }
     /* section-11 */
     .section-11-img img {
         max-width: 280px;
     }
-
+            
 }
 
 /* large phone  :600px up */
@@ -171,160 +318,227 @@
     .container {
         max-width: calc(100% - 20%);
     }
+
     .topbar {
         display: none;
     }
+
     /* <!-- NAVBAR  --> */
     .reserve-btn {
         font-size: 12px;
     }
+
     .reserve {
         padding: 10px 16px;
     }
+
     .logo img {
         width: 150px;
     }
+
     .header-part {
         display: block;
     }
+
     .header-text {
         width: 100%;
     }
+
     .title-1 {
         display: flex;
         justify-content: center;
         font-size: 20px;
         padding-top: 20px;
     }
+
     .title-2 {
         display: flex;
         justify-content: center;
     }
+
     .at-home {
         display: flex;
         justify-content: center;
     }
+
     .order {
         order: 1;
     }
+
     .header-image {
         order: 2;
     }
+
     .item {
         display: flex;
         justify-content: center;
     }
+
     .shop-now {
         display: flex;
         justify-content: center;
     }
+
     .customers-rate {
         justify-content: center;
     }
+
     /* section-1 */
     .section-title-2 {
         text-align: center;
     }
+
     .section-1 {
         padding-top: 0;
     }
+
     /* section-2 */
     .section-2 {
         margin-bottom: 50px;
     }
+
     .Shipping span {
         margin-right: 5px;
         font-size: 12px;
     }
+
     /* section-3 */
     .section-3 {
         padding-top: 30px;
         margin-bottom: 80px;
     }
+
     .Reduce {
         display: block;
     }
+
     .mask-img {
         order: 1;
         position: relative;
     }
+
     .discover-benefits {
         order: 2;
         gap: 20px;
         position: relative;
         margin-bottom: 30px;
     }
+
     .mask-img {
         display: flex;
         justify-content: center;
     }
+
     .discover-item {
         width: 140px;
         height: 140px;
         padding: 25px;
     }
+
     .discover-item div {
         margin-bottom: 10px;
     }
+
     .discover-item h3 {
         font-size: 16px;
     }
+
     .mask-img img {
         width: 300px;
         height: 300px;
     }
+
     /* section-4 */
-    .section-4{
+    .section-4 {
         margin-bottom: 80px;
     }
+
     /* section-5 */
-    .section-5{
+    .section-5 {
         margin-bottom: 80px;
-     }
+    }
 
+    .section-5-containet {
+        display: block;
+    }
 
+    .section-5-text {
+        width: 100%;
+    }
 
-     .section-6{
+    .section-5-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    /* section-6 */
+    .section-6 {
         margin-bottom: 80px;
-     }
+    }
 
-
-
-
-
+    /* secttn-7 */
+    .section-7{
+        margin-bottom: 80px;
+    }
+    
+    /* section-8 */
+    .images {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .customers-rate img{
+        width: 50px;
+    }
+    .customers-rate{
+        font-size: 12px;
+    }
+    .customers-rate p span {
+        font-size: 14px;
+    }
     /* section-9 */
     .section-9-container {
         margin-bottom: 80px;
     }
-    .shopping{
+
+    .shopping {
         width: 100%;
         justify-content: center
     }
-    .shop-icon{
+
+    .shop-icon {
         display: block;
         margin-right: 20px;
     }
+
     /* sectiion-10 */
-    .section-10{
+    .section-10 {
         margin-bottom: 80px;
     }
+
     .Questions-item {
         padding: 15px;
     }
-    .Questions-item p{
+
+    .Questions-item p {
         font-size: 12px;
     }
+
     /* Footer */
     .footer-part div h1 {
         font-size: 35px;
         display: flex;
         justify-content: center;
     }
+
     .footer-device {
         font-size: 13px;
         display: flex;
         justify-content: center;
     }
+
     .Copyright {
         font-size: 14px;
         margin: 0 25px;
@@ -341,24 +555,30 @@
     .container {
         max-width: calc(100% - 5%);
     }
+
     .reserve-btn {
         padding: 14px 12px;
     }
+
     .shop-now button {
         max-width: 100%;
     }
+
     .cheack {
         width: 150px;
     }
+
     /* section-1 */
     .graphic-img img {
         height: 160px;
     }
+
     /* section-3 */
     .discover-item {
         width: 140px;
         height: 140px;
     }
+
     .discover-item h3 {
         font-size: 12px;
     }
@@ -366,18 +586,20 @@
 
 
     /* section-9 */
-    .section-9-container div{
+    .section-9-container div {
         max-width: 300px;
     }
+
     .Comparision {
         justify-content: space-evenly;
     }
-    .Comparision-item{
+
+    .Comparision-item {
         justify-content: space-evenly;
     }
 
-     /* section-11 */
-     .section-11-img img {
+    /* section-11 */
+    .section-11-img img {
         max-width: 100%;
     }
 }
