@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- keybord event -->
+    <!-- <input type="text" id="myinput" placeholder="Type something...">
+    <div class="output">
+        <p class="keyPressed">keyPressed:</p>
+        <p class="keyCode">keyCode:</p>
+        <p class="charCode">charCode:</p>
+        <p class="eventType">eventType:"</p>
+    </div> -->
+
+    <!-- input event -->
+    <section>
+        <input type="text" id="myinput" name="username" placeholder="Type something..." autocomplete="off">
+        <div class="output">
+            <p class="inputValue">inputValue:</p>
+            <p class="inputName ">inputName:</p>
+            <p class="inputType ">inputType:</p>
+            <p class="eventType ">eventType:"</p>
+        </div>
+    </section>
+
+    <script>
+        // <!-- keybord event -->
+        // const handleKeyPress = (event) => {
+        //     console.log(event);
+        //     console.log("keyPressed:", event.key);
+        //     console.log("keyCode:", event.code);
+        //     console.log("eventType", event.type);
+
+        //     document.querySelector(".keyPressed").textContent = `key Pressed:${event.key}`;
+        //     document.querySelector(".keyCode").textContent = `keyCode: ${event.code}`;
+        //     document.querySelector(".charCode").textContent = `charCode: ${event.key.charCodeAt(0)}`;
+        //     document.querySelector(".eventType").textContent = `eventType: ${event.type}`
+        // }
+        // var myInput = document.getElementById("myinput");
+
+        // myInput.addEventListener('keydown', handleKeyPress)
+
+        // ---------------------------------------------------------------------------------------------
+        // input event
+
+        const handelInput = (event) => {
+            console.log(event);
+            console.log("inputValue", event.target.value);
+            console.log("inputName:", event.target.name);
+            console.log("inputType", event.inputType);
+            console.log("eventType", event.type);
+            document.querySelector(".inputValue").textContent = `inputValue: ${event.target.value}`;
+            document.querySelector(".inputName").textContent = `inputName: ${event.target.name}`;
+            document.querySelector(".inputType").textContent = `inputType: ${event.inputType}`;
+            document.querySelector(".eventType").textContent = `eventTypee: ${event.type}`;
+        }
+        const inputEle = document.getElementById('myinput')
+        inputEle.addEventListener('input', handelInput)
+    </script>
+</body>
+
+</html>

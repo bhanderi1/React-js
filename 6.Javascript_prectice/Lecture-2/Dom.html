@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- // --------------------------Event---------------------------------------
+// => 3 ways of waiting Events in javascript
+// 1.Mouse Event :- 
+// onclick  , oncontextmenu:-right-click , andclick:-double-clicks ,anmousedown , anmouseenter,anmouseleave , anmousemove , onmouseout , anmouseover , anmouseup
+// 2.Keybord Event
+// 3.InputEvent Event
+
+// Dom Method event -->
+
+    <!-- inline Event -->
+     <button onclick="alert('welcome')">onclick</button>
+     <button ondblclick="alert('welcome')">ondblclick</button>
+     <button onmouseover="alert('welcome')">onmouseOver</button>
+
+    <!-- Dom Event handler -->
+     <button id="mybtn">DomEvent</button>
+
+    <!-- addEventLsitener Event handler -->
+    <button id="mybtn1">DomEvent</button>
+
+
+
+    <script>
+        document.getElementById("mybtn").onclick=function() { "alert ('welcome ,again')" }
+
+        // addEventListerner
+        document.getElementById('mybtn1').addEventListener('click', function() { "alert ('welcome ,again')" })
+    </script>
+</body>
+</html>

@@ -302,7 +302,7 @@
 }
 
 {
-    let string48 = "world";
+    let string48 = "world  ";
     console.log(string48);
     let string49 = string48.split("");
     console.log(string49); 

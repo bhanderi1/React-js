@@ -129,7 +129,7 @@
 // javascript finally() method
 
 {
-    //you can also use the finally() method with promises. the finally() method gets exeuted when the promise when the promise is either resolved successfully or rejected.
+    //you can also use the finally() method with promises. The Finally() method gets exeuted when the promise when the promise is either resolved successfully or rejected.
 
     let conutvalue = new Promise(function(resolve ,reject){
         resolve();

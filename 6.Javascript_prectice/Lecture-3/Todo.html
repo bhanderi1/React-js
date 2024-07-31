@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>TODO LIST</h1>
+    <form action="">
+        <div>
+            <input type="text" id="inputvalue">
+            <button class="btn">ADD TODO</button>
+        </div>
+        <section class="todo-list-elem">
+            <!-- <li></li> <button class="delete-btn">Delete</button> -->
+        </section>
+    </form>
+
+    <script>
+
+        const mainTodoRElem = document.querySelector('.todo-list-elem')
+        const inputvalue = document.getElementById('inputvalue')
+
+
+        const getTodoListFromLocal = () => {
+            return JSON.parse(localStorage.getItem('youtubeTododList'))
+        }
+
+        const addTodoListLocalStorage =(localTodolist) =>{
+            return localStorage.setItem('youtubeTododList' , JSON.stringify(localTodolist) )
+        }
+
+        let localTodolist = getTodoListFromLocal() || [];
+
+
+        const addTodoDynamicElement = (curele) => {
+            const divElement = document.createElement("div");
+            divElement.classList.add('main_todo_div')
+            divElement.innerHTML = ` <li>${curele}</li> <button class="delete-btn">Delete</button>`;
+            mainTodoRElem.append(divElement)
+        }
+
+        const addTodoList = (e) => {
+            e.preventDefault();
+            const todolistValue = inputvalue.value.trim()
+
+            inputvalue.value = "";
+            if (todolistValue != "" &&!localTodolist.includes(todolistValue)) {
+                localTodolist.push(todolistValue)
+                localTodolist = [...new Set(localTodolist)]
+                console.log(localTodolist);
+                localStorage.setItem('youtubeTododList', JSON.stringify(localTodolist))
+
+                addTodoDynamicElement(todolistValue);
+            };
+        }
+
+        const showTodoList = () => {
+            localTodolist.forEach((curele) => {
+                addTodoDynamicElement(curele);
+            });
+        }
+        showTodoList()
+
+        const removeTodoEle=(e)=>{
+            const todoToRemove = e.target
+            let todoListContent = todoToRemove.previousElementSibling.innerText;
+            let parentEle = todoToRemove.parentElement;
+            console.log(todoListContent);
+
+            localTodolist = localTodolist.filter((curTodo) => {
+                return curTodo !== todoListContent.toLowerCase()
+            })
+
+            addTodoListLocalStorage(localTodolist)
+            parentEle.remove();
+            console.log(localTodolist);
+        }
+
+
+        mainTodoRElem.addEventListener('click', (e) => {
+            e.preventDefault()
+            console.log(e.target);
+            if(e.target.classList.contains('delete-btn')){
+                removeTodoEle(e)
+            }
+        })
+
+        document.querySelector('.btn').addEventListener('click', (e) => {
+            addTodoList(e);
+        })
+        </script>
+</body>
+
+</html>
