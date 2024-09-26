@@ -5,6 +5,11 @@
     width: 1380px;
     border: 3px solid black;
 }
+/* body{
+    display: flex;
+    justify-content: center;
+
+} */
 
 main{
     display: flex;

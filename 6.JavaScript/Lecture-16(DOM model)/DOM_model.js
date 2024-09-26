@@ -5,7 +5,7 @@
 
 // the do represent an html document as a tree of nodes. the dom provides functions that allow you to add,  remove, and modify parts of the document  effectively.
 
-// note that dom is cross-plateform and languagre-indepentent  way of manipilating html and xml document.
+// note that dom is cross-plateform and language-indepentent  way of manipilating html and xml document.
 
 // a documrnt as a hirearchy of nodes.
 

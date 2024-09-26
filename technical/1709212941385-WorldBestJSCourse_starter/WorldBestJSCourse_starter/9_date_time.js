@@ -6,7 +6,7 @@
 
 //? Creating a Date Object:
 // You can create a new Date object using the new keyword. It can be done in several ways:
-//todo There are 9 ways to create a new date object:
+//todo There are 9 ways to create a new date object
 
 // Syntax
 // new Date()

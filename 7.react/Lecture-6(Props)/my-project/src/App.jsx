@@ -14,7 +14,6 @@ import CardImg3 from './assets/img.jpg';
       <Crad name={"Ram Mandir History"} Img={CardImg1}/>
       <Crad name={"Ram Mandir"} Img={CardImg2}/>
       <Crad name={"Images"} Img={CardImg3}/>
-  
       </div>
       </>
     )

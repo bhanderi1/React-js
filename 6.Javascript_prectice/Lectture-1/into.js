@@ -135,7 +135,7 @@ else {
 
 
 
-// -------------------- cConcatenation in javascript ---------------------------
+// -------------------- Concatenation in javascript ---------------------------
 
 const string = "hello " + "wotld"
 console.log(string);
@@ -322,7 +322,7 @@ var result = function sum(a, b) {
 }
 result(10, 15)
 
-//anonymous function = je function nu name na hoy
+//anonymous function = je function nu name na hoy and variable ma store karavel hoy....
 var result = function sum(a, b) {
     console.log(a + b);
 }
@@ -442,7 +442,7 @@ console.log(myMap)
 // =>Map  :-since it returns a new array , you can chain other array methods after using map.
 
 // Use Case:
-// =>forEach:- used when you want to iterate over the array elements and perform an action on each elemnets, but you don't need a new array.
+// =>forEach:- used when you want to iterate over the array elements and perform an action x each elemnets, but you don't need a new array.
 // =>Map  :-Used when you want to create a new array based on the tranformation of each element in the original array.
 
 
@@ -464,7 +464,7 @@ console.log(fruits)
 // indexOf , lastOfIndex &includes
 const numbers1 = [1, 2, 3, 4, 6, 5, 6, 7, 8, 9]
 
-//1. indecOf :-  return the first index   => ans na hoy to -1 return kare beacse flase value
+//1. indecOf :-  return the first index   =>ans na hoy to -1 return kare becase flase value
 // indexOf(searchElement) 
 // indexOf(searchElement , fromIndex) 
 
@@ -474,7 +474,7 @@ console.log(numbers1.indexOf(4, 5));//-1 false value
 
 //2. LastIndexcOf :-  return last index  
 console.log(numbers1.lastIndexOf(4));//3
-console.log(numbers1.lastIndexOf(6, 5));//4 => index count the first and 5 pachi ni valuse egnore kare
+console.log(numbers1.lastIndexOf(6, 5));//4  =>index count the first and 5 pachi ni valuse egnore kare
 
 
 // 3.includes:- true and false value return 
@@ -603,8 +603,6 @@ console.log(totalPrice);
 
 // -------------------------string-----------------------------
 
-
-
 //----------------Data modeling------------------------
 
 // => data modeling is the process of creating a visual representation of either a whole information system or parts of it to communicate connections between data points and structures, The goal is to illustrate the types of data used and stored within the system, the relationships among these data types, the ways the data can be grouped and organized and its formats and attributes.
@@ -628,7 +626,6 @@ let car = {
 
 // Sol : In Javascript , primitive data types like numbers and string anre passed by value while objects are passed by reference.
 // Passing by value:-when passing by value , a copy of the primitive value is creates and passed to the function or assigned to a variable. any changes made to the copy do not ect the affginal value.
-
 
 let aa=10;
 const modifyValue = (x) => (x = 20)
@@ -661,12 +658,10 @@ console.log(newobj);
 // ----------------JSOJ(javascript object Notation) ----------------
 // => JSON is a data interchange format derived from Javascript objects. objects can be easily convered to JSON and vice versa.
 
-
 // used to JSON.strigfy and JSON.parse
 
 
-
-// ----------------this object ----------------
+// ----------------this object -------------------
 // The “this” keyword refers to different objectsdepending on how it is used:
 
 
@@ -678,9 +673,7 @@ console.log(newobj);
 //=> Methods like call(), apply(), and bind() can refer this to any object.
 
 
-
-
-// -------------------------object useful marhod ------- ----------------
+// -------------------------object useful mathod ------------------------
 
 const Products = {
     id:1,
@@ -728,6 +721,148 @@ console.log(Products);
 
 
 
+// -----------------------How Javascript Works (Runs) ------------------------
+
+// Parsing Phase?
+
+//* 1. Lexical analysis
+//?Lexical analyzer, also known as a lexer, is the first step in the process of compiling a JavaScript program. It breaks the program down into tokens, which are the basic building blocks of the language.
+
+//* 2. Syntax analysis
+//? Takes the stream of tokens from lexical analysis and checks them for correct syntax. If the syntax is correct, syntax analysis generates a tree-like structure called a parse tree or abstract syntax tree (AST). The AST represents the hierarchical structure of the program.
+
+
+//* 2. Compilation (JIT - Just-In-Time Compilation):
+//? After the AST is created, the JavaScript engine typically goes through a compilation phase. In modern engines, like V8 in Chrome, SpiderMonkey in Firefox, or JavaScriptCore in Safari, this compilation often involves a combination of two approaches:
+//? Parse and Compile: The engine parses the code and compiles it into an intermediate form, such as bytecode or machine code.
+//? Just-In-Time Compilation (JIT): Some engines use JIT compilation, where the intermediate code is compiled just before execution. This allows the engine to optimize the code based on runtime information, improving performance.
+
+
+//* 3. Execution:
+//? Once the code is compiled, the JavaScript engine executes it. During execution, the engine creates execution contexts, manages the scope chain, handles variable assignments, and calls functions.
+//? The execution context consists of two phases: the creation phase (where variables and functions are hoisted) and the execution phase (where the code is actually run).
+//? The JavaScript engine uses a call stack to keep track of the execution context. When a function is called, a new frame is added to the stack, and when the function completes, its frame is removed (LIFO - Last In, First Out).
+
+//* More on inside execution phase
+//! Call Stack
+//? In order to manage the execution contexts, the JavaScript engine uses a call stack.
+//? The call stack is a data structure that keeps track of the currently executing functions in a program. It operates on the Last In, First Out (LIFO) principle, meaning that the last function added to the stack is the first one to be executed and completed.
+//! Heap Memory:
+//? The heap memory is where dynamically allocated memory resides. This is where objects, closures, and other dynamically allocated data are stored. While the call stack manages the flow of execution and function contexts, the heap memory holds data that is referenced by these execution contexts.
+
+//! Bonus We will see in PPT with animation
+//* Here's a basic overview of how the call stack works:
+
+//? During the execution of a JavaScript program,
+
+//? The JavaScript engine goes through the creation phase before executing any code. During this phase, it sets up the global execution context. The global execution context is the first one to be created and pushed onto the call stack. This happens when the JavaScript engine starts executing the code.
+
+//todo  Key activities during the creation phase include:
+
+//? Creating the global object (window in browsers, global in Node.js).
+//? Setting up the this reference.
+//? Creating the outer environment reference (which is null for the global context).
+//? Creating the variable environment and allocating memory for global variables and functions.
+
+
+
+
+// -----------------------   Hosting   ------------------------
+//* Before executing our code, JavaScript engine scans the code and creates a property for each variable or function in the code. For variable, It reserves space for them in memory and sets an initial value of undefined, and for functions it also reserves space but sets an initial value as a reference to the actual function in memory. That's why we can call a function, but if we try to access a variable, we will get undefined.
+
+//? Setting up the scope chain, which initially contains only the global scope.
+
+//! Execution Phase:
+//? After the creation phase, the actual code execution takes place. This is when the JavaScript engine goes through the code line by line.
+//? Variables are assigned their values, functions are executed, and the program's logic is carried out.
+
+
+//? Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution. This means that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local.
+
+//todo When a function declaration is hoisted, its entire definition (including the body) is moved to the top of its containing scope during the creation phase. This means that you can call the function before it's actually declared in the code, and it will still work as expected.
+
+console.log(myVar);
+greet()
+var myVar =10
+function greet(){
+    console.log("welcome ....");
+}
+// only var ma j hosting ave
+
+
+//* ------------------------- Scope in JavaScript ---------------------------
+
+//=> Scope in JavaScript refers to the context in which variables are declared and accessed. It defines the visibility and lifetime of variables. When a variable is declared, it is bound to a specific scope, and its accessibility is determined by that scope.
+// todo We have a Global Scope, Function Scope and Block Scope
+
+
+
+//* ------------------------- Lexical Scoping -------------------------
+// => Lexical scoping is a way of managing variable access in JavaScript based on the physical structure of the code.
+
+// Key Concept: The scope of a variable is determined by its position in the source code, specifically where it is declared.
+
+//=> Lexical scoping in JavaScript is like a set of rules that determines where a variable can be used in your code. It follows the physical structure of your code, so if a variable is declared inside a function or block, it can usually be used only within that function or block.
+
+ var a = 5;
+ var b = 10;
+
+
+//* -------------------------  Scope Chaining:  -------------------------
+//=> Definition: Scope chaining is the process by which JavaScript, when looking for the value of a variable, checks the current scope and then looks in the outer (enclosing) scopes until it finds the variable or reaches the global scope.
+
+//todo Key Concept: Variables in inner scopes have access to variables in their outer scopes, creating a chain of accessible scopes.
+
+// * Global Scope:
+//? Variables: Variables declared outside of any function or block have global scope.
+//? Access: Global variables are accessible from any part of the code, including inside functions and blocks.
+
+//  var globalVariable = "I am a global variable";
+
+// function exampleFunction() {
+//   console.log(globalVariable); // Accessible within the function
+// }
+
+// console.log(globalVariable); // Accessible globally
+
+// Function Scope:
+// Variables: Variables declared inside a function have function scope.
+//  Access: Function-scoped variables are only accessible within the function where they are declared.
+//  function exampleFunction() {
+//     var functionScopedVar = "I am a function-scoped variable";
+//     console.log(functionScopedVar); // Accessible within the function
+//   }
+
+// console.log(functionScopedVar); // Error: functionScopedVar is not defined
+
+//  * Block Scope:
+// Variables: Variables declared with let and const inside a block (e.g., an if statement or a for loop) have block scope.
+// Access: Block-scoped variables are only accessible within the block where they are declared.
+
+//! ------------------------------
+// ! Interview Question
+//! -----------------------------
+
+//!  Global Variable vs. Local Variable:
+//? Global Variable: A variable declared in the global scope is referred to as a global variable. It has global visibility and can be accessed from anywhere in the code.
+
+//? Local Variable: A variable declared within a function (function scope) or a block (block scope) is often referred to as a local variable. It has local visibility, limited to the function or block where it's declared.
+
+const globalVariable = "I'm a global variable";
+
+function myFunction() {
+  // Function scope
+  const functionVariable = "I'm a function variable";
+
+  if (true) {
+    // Block scope
+    const blockVariable = "I'm a block variable";
+  }
+
+  console.log(functionVariable);
+}
+
+myFunction();
 
 
 
@@ -741,14 +876,9 @@ console.log(Products);
 
 
 
+// ------------------------------Promise ---------------------
+// => A promise is like a placeholder for the result of an asynchronous operation. Or a container for the future result or value.
 
+//? Promises have built-in methods like then and catch to handle the results of asynchronous operations when they complete or encounter errors, making it easier to write asynchronous code that is more readable and maintainable compared to traditional callback-based approaches.
 
-//call back hell
-//promise hell
-//what is error expetion handling
-//asyce and awit
-//javascript is acronocy and a secronace
-//promise
-
-
-// callback function:- A callback is a function passed as an argument to another function    =>A callback function can run after another function has finished
+//? You can create a promise using the Promise constructor. This involves creating a new instance of the Promise class, which takes a function as an argument. This function, often referred to as the "executor function," takes two parameters: resolve and reject. You call resolve when the asynchronous operation is successful and reject when it encounters an error.
