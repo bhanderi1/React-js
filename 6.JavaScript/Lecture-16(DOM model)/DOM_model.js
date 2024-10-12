@@ -1,7 +1,7 @@
 // document object model in javascript
 
 // what is document object model(dom)
-// the document object model(dom) is application programing interface (apl) for manipulating html documents.
+// the document object model(dom) is application programing interface (api) for manipulating html documents.
 
 // the do represent an html document as a tree of nodes. the dom provides functions that allow you to add,  remove, and modify parts of the document  effectively.
 

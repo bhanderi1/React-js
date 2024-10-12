@@ -17,9 +17,5 @@ import CardImg3 from './assets/img.jpg';
       </div>
       </>
     )
-    
-   
   }
-
-
 export default App

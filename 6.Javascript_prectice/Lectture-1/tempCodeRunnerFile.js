@@ -1,2 +1,1 @@
-console.log(myVar);
-greet()
+ise is like a placeholder for the result

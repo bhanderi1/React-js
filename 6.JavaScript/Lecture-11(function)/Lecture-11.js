@@ -3,8 +3,10 @@
 /*
 A function is a block of code that performs a specific task.
 A function is declared using the function keyword.
-The basic rules of naming a function are similar to naming a variable. It is better to write a descriptive name for your function. For example, if a function is used to add two numbers, you could name the function add or addNumbers.
+The basic rules of naming a function are similar to naming a variable. It is better to write a descriptive name for your function.
+For example, if a function is used to add two numbers, you could name the function add or addNumbers.
 */
+
 {
     function print()
     {

@@ -170,12 +170,14 @@ const Add = () => {
                 className="me-2" /> Go back
             </button>
           </Link>
+    
           <button
             type="submit"
             className="inline-flex w-fit-content items-center justify-center rounded-md  bg-black text-white hover:bg-gray-300  hover:text-black px-6 py-2 font-semibold leading-6">
             Add user<FaArrowRight
               className="ml-2" />
           </button>
+
         </div>
       </form>
     </div>

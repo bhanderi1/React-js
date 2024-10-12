@@ -47,7 +47,7 @@
   // let x = undefined;
   // let x = NaN;
   // let x = null;
-  // let x = Infinity;
+  // let x = Infinity
   // let x = -Infinity;
   // let x = " ";
   // let x = [ ];
@@ -56,18 +56,18 @@
   // let x = [100];
   // let x = ["Hello" , "Hi"];
   // let x =function(){};
-  let x = {};
+  // let x = {};
   console.log(typeof(x));
   
-  let y = (Number(x));
-  console.log(y);
-  console.log(typeof(y));
+  // let y = (Number(x));
+  // console.log(y);
+  // console.log(typeof(y));
   
-  let z = (String(x));
-  console.log(z);
-  console.log(typeof(z));
+  // let z = (String(x));
+  // console.log(z);
+  // console.log(typeof(z));
 
-  let a = (Boolean(x));
-  console.log(a);
-  console.log(typeof(a));
+  // let a = (Boolean(x));
+  // console.log(a);
+  // console.log(typeof(a));
 }

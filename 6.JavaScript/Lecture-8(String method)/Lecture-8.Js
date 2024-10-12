@@ -64,7 +64,7 @@
 {
     let string7 = "This is javascript";
     let string8 = string7.charAt(12);
-    console.log(string8); //5
+    console.log(string8); //s
 }
 {
     let string7 = "hello world  f  ";
@@ -290,7 +290,7 @@
 {
     let string48 = "wow! what a place";
     console.log(string48);
-    let string49 = string48.split("");
+    let string49 = string48.split(" ");
     console.log(string49); //convert to the array
 }
 

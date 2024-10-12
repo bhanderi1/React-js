@@ -31,7 +31,7 @@
 /*  toExponential() */
 {
   //1.
-  let a=2500000
+  let a=2500000788
   
   let b=a.toExponential()
   console.log(b)                    //2.5e+6

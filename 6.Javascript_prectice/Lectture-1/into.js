@@ -27,6 +27,7 @@ var $cityNAme = "new york";    //valid
 var myFavNum = 5
 console.log(myFavNum);
 
+
 // string
 var myName = 'srushti'
 console.log(myName);
@@ -39,6 +40,7 @@ console.log(isRaining);
 //undefine
 var srushti;
 console.log(srushti);
+
 
 //Null
 var badMemories = null
@@ -100,7 +102,7 @@ console.log(myNumber1);
 console.log(typeof myNumber1)  //42
 
 // 2.ParseFloat:ParseFloat is used to Parse a string and covert it to a floating-point number.
-const mystring2 = "42.5";
+const mystring2 = "42.25";
 const myNumber2 = parseFloat(mystring2)
 console.log(myNumber2);
 console.log(typeof myNumber2)  //42.5
@@ -158,9 +160,6 @@ console.log(true + true); //2
 console.log(true + false); //1
 console.log(false + true);//1
 console.log(false - true);//-1
-
-
-
 
 
 // -------------------- Expressions & operators ---------------------------
@@ -303,6 +302,10 @@ for (var num = 16; num <= 20; num++) {
 
 
 // ------------------------------ function ----------------------------------
+// =>A Function is a bloack of code that preforms a specific task.
+// => A function declared using the function keywords.
+// =>three type of function :- name function , anonymous function , arrow function 
+
 // function declaration
 
 function greet() {
@@ -323,7 +326,7 @@ var result = function sum(a, b) {
 result(10, 15)
 
 //anonymous function = je function nu name na hoy and variable ma store karavel hoy....
-var result = function sum(a, b) {
+var result = function sum(a, b) { 
     console.log(a + b);
 }
 result(10, 15)
@@ -405,7 +408,7 @@ console.log(typeof arr) //object
 // fruits[2] = 'mango'
 // console.log(fruits);
 
-// --------------Iterating ovre array -----------------------
+// --------------Iterating ovre array -------------------------
 let fruits = ['apple', 'orange', 'Mango', 'grapes', 'banana'];
 
 // 1.for of loop:- value 
@@ -572,7 +575,7 @@ console.log(numberSort);
 
 // ------------------------------------------
 // map(), filter(),reduce()
-// =>map creates anew array from calling a function for every array elemenet.
+// =>map creates a new array from calling a function for every array elemenet.
 // =>map() does not execute the function for empty elemenets.
 // =>map() does not change the original array.
 
@@ -662,9 +665,8 @@ console.log(newobj);
 
 
 // ----------------this object -------------------
-// The “this” keyword refers to different objectsdepending on how it is used:
-
-
+// The “this” keyword refers to different objects depending on how it is used:
+ 
 //=>4. In an object method, this refers to the object. => object in ander this key no use karo to ae current object ne refer kare 
 //=> 2.Alone, this refers to the global object. => this -ae pan global object 6e 
 //=> 1.In a function, this refers to the global object. =>window is global object

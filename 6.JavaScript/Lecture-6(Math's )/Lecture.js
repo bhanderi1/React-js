@@ -166,12 +166,12 @@ console.log(math2)//3.14
 }
 {
     //2.
-    let math10 = Math.abs(-2500)
+    let math10 = Math.abs(-2500.9)
     console.log(math10)//2500
 }
 {
     //3.
-    let math10 = Math.abs(0)
+    let math10 = Math.abs(0.8)
     console.log(math10)//0
 }
 
