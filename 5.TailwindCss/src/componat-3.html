@@ -4,104 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Here we are</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>About us</title>
+    <link rel="stylesheet" href="output.css">
 </head>
 
-<body class="p-2">
-    <div>
-        <div class="text-center p-3 bg-slate-200">
-            <h1 class="font-bold text-2xl">Here we are, take alook</h1>
-            <h1 class="text-xs">There's so many poorly chosen words in that sentence</h1>
-        </div>
+<body class="h-screen w-screen relative">
 
-
-        <div class="pt-5 flex justify-around  flex-wrap">
-            <div class="text-center max-h-40 max-w-32 mb-10">
-                <div class="max-h-32 max-w-32 rounded-full overflow-hidden">
-                    <img src="./imge/All_images/img/image-1.jpg" alt="user iamge">
+    <div class="w-screen h-screen bg-[url('../src/component/about-us.png')]  bg-cover bg-center blur-md brightness-50">
+    </div>
+    <div
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex  justify-center max-w-[750px] h-auto bg-white p-5 rounded-2xl">
+        <div class="w-auto h-auto text-center">
+            <div>
+                <h1 class="text-3xl font-bold">What people say about us</h1>
+                <div class="flex flex-col  w-4/5 justify-center mx-auto relative">
+                    <div>
+                        <img src="../src/imge/All_images/svg-icon/quote-left.svg" alt=" quote-left iamge" class="h-6 justify-start flex">
+                    </div>
+                    <div>
+                        <h1 class="text-xs px-5 "> Though the grevity dragged at him, his muscles were making great
+                            efforts to
+                            adjust. After the daily classes he no longer collapsed immediately into bed.</h1>
+                    </div>
+                    <div>
+                        <img src="../src/imge/All_images/svg-icon/quote-right.svg" alt=" quote-right image"
+                            class="h-6 flex justify-end end-0 absolute ">
+                    </div>
                 </div>
-                <h1 class="font-bold">Cid sirius</h1>
-                <span class="text-gray-500 text-sm"> Backend Developer</span>
             </div>
 
-            <div class="text-center max-h-40 max-w-32 mb-10">
-                <div class="max-h-32 max-w-32 rounded-full overflow-hidden">
-                    <img src="./imge/All_images/img/image-2.png" alt="user iamge">
+            <div class="flex justify-around pt-8 pb-6 flex-wrap">
+                <div class="text-center max-h-40 max-w-32">
+                    <div class="max-h-32 max-w-32 rounded-full overflow-hidden">
+                        <img src="./imge/All_images/img/image-12.jpg" alt="user image">
+                    </div>
+                    <span class="text-gray-500 text-sm"> Risotto Nero</span>
                 </div>
-                <h1 class="font-bold">Enrico pucci</h1>
-                <span class="text-gray-500 text-sm"> Frontend Developer</span>
+
+                <div class="text-center max-h-40 max-w-32">
+                    <div class="max-h-32 max-w-32 rounded-full overflow-hidden">
+                        <img src="./imge/All_images/img/image-11.jpg" alt="user image">
+                    </div>
+                    <span class="text-gray-500 text-sm"> Kenji Akira</span>
+                </div>
+
+                <div class="text-center max-h-40 max-w-32">
+                    <div class="max-h-32 max-w-32 rounded-full overflow-hidden">
+                        <img src="./imge/All_images/img/image-16.jpg" alt="user image">
+                    </div>
+                    <span class="text-gray-500 text-sm"> Goku San</span>
+                </div>
+
+                <div class="text-center max-h-40 max-w-32">
+                    <div class="max-h-32 max-w-32 rounded-full overflow-hidden">
+                        <img src="./imge/All_images/img/image-15.jpg" alt="user image">
+                    </div>
+                    <span class="text-gray-500 text-sm"> Leone Abachio</span>
+                </div>
             </div>
+            <hr>
 
-            <div class="text-center max-h-40 max-w-32 mb-10">
-                <div class="max-h-32 max-w-32 rounded-full overflow-hidden">
-                    <img src="./imge/All_images/img/image-3.jpg" alt="user iamge">
+            <div class="flex justify-center gap-5 mt-6">
+                <div class="h-10 w-10 bg-gray-300 rounded-full">
+                    <img src="../src/imge/All_images/svg-icon/facebook.svg" alt="facebook icon" class="h-8 mt-1 mx-auto">
                 </div>
-                <h1 class="font-bold">Risotto Nero</h1>
-                <span class="text-gray-500 text-sm"> VP Desinger</span>
-            </div>
 
-            <div class="text-center max-h-40 max-w-32 mb-10">
-                <div class="max-h-32 max-w-32 rounded-full overflow-hidden">
-                    <img src="./imge/All_images/img/option-1.png" alt="user iamge">
+                <div class="h-10 w-10 bg-gray-300 rounded-full">
+                    <img src="../src/imge/All_images/svg-icon/tw.svg" alt="twitter icon" class="h-8 mt-1 mx-auto">
                 </div>
-                <h1 class="font-bold">Rubber Soul</h1>
-                <span class="text-gray-500 text-sm">UX Desinger</span>
-            </div>
 
-            <div class="text-center max-h-40 max-w-32 mb-10">
-                <div class="max-h-32 max-w-32 rounded-full overflow-hidden">
-                    <img src="./imge/All_images/img/option-3.jpg" alt="user iamge">
+                <div class="h-10 w-10 bg-gray-300 rounded-full">
+                    <img src="../src/imge/All_images/svg-icon/dropbox.svg" alt="dropbox icon" class="h-8 mt-1 mx-auto">
                 </div>
-                <h1 class="font-bold">Saifer joe</h1>
-                <span class="text-gray-500 text-sm"> Frontend Developer</span>
-            </div>
-        </div>
 
-
-        <div class=" flex justify-around flex-wrap">
-            <div class="text-center max-h-40 max-w-32 mb-10">
-                <div class="max-h-32 max-w-32 rounded-full overflow-hidden">
-                    <img src="./imge/All_images/img/option-4.jpg" alt="user iamge">
+                <div class="h-10 w-10 bg-gray-300 rounded-full">
+                    <img src="../src/imge/All_images/svg-icon/google.svg" alt="google icon" class="h-8 mt-1 mx-auto">
                 </div>
-                <h1 class="font-bold">Benjamin Boom</h1>
-                <span class="text-gray-500 text-sm">Desinger Director </span>
-            </div>
 
-            <div class="text-center max-h-40 max-w-32 mb-10">
-                <div class="max-h-32 max-w-32 rounded-full overflow-hidden">
-                    <img src="./imge/All_images/img/image-4.png" alt="user iamge">
+                <div class="h-10 w-10 bg-gray-300 rounded-full">
+                    <img src="../src/imge/All_images/svg-icon/linkdin.svg" alt="linkdin" class="h-5 mt-2 mx-auto">
                 </div>
-                <h1 class="font-bold">Scarlet Valentine</h1>
-                <span class="text-gray-500 text-sm">Support Manger</span>
-            </div>
-
-            <div class="text-center max-h-40 max-w-32 mb-10">
-                <div class="max-h-32 max-w-32 rounded-full overflow-hidden">
-                    <img src="./imge/All_images/img/option-5.jpg" alt="user iamge">
-                </div>
-                <h1 class="font-bold">Steven Steel</h1>
-                <span class="text-gray-500 text-sm">Executive Director </span>
-            </div>
-
-            <div class="text-center max-h-40 max-w-32 mb-10">
-                <div class="max-h-32 max-w-32 rounded-full overflow-hidden">
-                    <img src="./imge/All_images/img/option-6.png" alt="user iamge">
-                </div>
-                <h1 class="font-bold">Ringo Roadagain</h1>
-                <span class="text-gray-500 text-sm"> Opertion Director </span>
-            </div>
-
-            <div class="text-center max-h-40 max-w-32 mb-10">
-                <div class="max-h-32 max-w-32 rounded-full overflow-hidden">
-                    <img src="./imge/All_images/img/option-7.jpg" alt="user iamge">
-                </div>
-                <h1 class="font-bold">Mountain Tim</h1>
-                <span class="text-gray-500 text-sm">Creative Director</span>
             </div>
         </div>
-
-
     </div>
 </body>
 

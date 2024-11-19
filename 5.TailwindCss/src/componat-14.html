@@ -4,55 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>img-best-sellers</title>
+    <title>cookies-card</title>
     <link rel="stylesheet" href="output.css">
 </head>
 
 <body>
     <div class="relative w-full h-screen">
-        <div class="w-screen h-screen bg-[url('../src/component/img-best-sellers.png')] bg-cover bg-center blur-lg">
+        <div class="w-screen h-screen bg-[url('../src/component/cookies-card.png')] bg-cover bg-center blur-lg brightness-50">
         </div>
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  w-auto ">
-            <div class="h-[500px] w-[800px] bg-white p-3">
-                <h1 class="py-5 text-xl">Best Sellers</h1>
-                <hr>
-                <div>
-                    <div class="flex overflow-hidden p-2">
-                        <div class="h-20 w-32 ">
-                            <img src="../src/imge/All_images/img/1.jpg" alt="" class="rounded-lg">
-                        </div>
-                        <div class="p-3">
-                            <h1 class="text-sm font-bold">Bathing Shampoo</h1>
-                            <h1 class="text-xs text-gray-500">80,451 sales</h1>
-                        </div>
-                    </div>
-                    <div class="flex overflow-hidden p-2">
-                        <div class="h-20 w-32 ">
-                            <img src="../src/imge/All_images/img/1.jpg" alt="" class="rounded-lg">
-                        </div>
-                        <div class="p-3">
-                            <h1 class="text-sm font-bold">Bathing Shampoo</h1>
-                            <h1 class="text-xs text-gray-500">15,451 sales</h1>
-                        </div>
-                    </div>
-                    <div class="flex overflow-hidden p-2">
-                        <div class="h-20 w-32 ">
-                            <img src="../src/imge/All_images/img/1.jpg" alt="" class="rounded-lg">
-                        </div>
-                        <div class="p-3">
-                            <h1 class="text-sm font-bold">Running Shampoo</h1>
-                            <h1 class="text-xs text-gray-500">11,451 sales</h1>
-                        </div>
-                    </div>
-                    <div class="flex overflow-hidden p-2">
-                        <div class="h-20 w-32 ">
-                            <img src="../src/imge/All_images/img/1.jpg" alt="" class="rounded-lg">
-                        </div>
-                        <div class="p-3">
-                            <h1 class="text-sm font-bold">Toilet Shampoo</h1>
-                            <h1 class="text-xs text-gray-500">11,451 sales</h1>
-                        </div>
-                    </div>
+            <div class="h-auto max-w-96 bg-white p-4">
+                <div class="flex items-center justify-between ">
+                    <h1 class="font-bold text-base ">We use cookies</h1>
+                    <img src="../src/imge/All_images/svg-icon/close.svg" alt="close icon"
+                        class="h-5 p-1.5 bg-slate-200 rounded-lg ">
+                </div>
+                <span class="text-gray-500 text-xs pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+                    non omnis harum dicta error asperiores neque ea molestias magni. Molestiae tempora itaque quo qui,
+                    commodi eligendi dignissimos quasi nemo asperiores.</span>
+                <div class="flex text-white pt-2">
+                    <button type="button" class="w-full p-1.5 rounded-md bg-red-500 m-1">Cancel</button>
+                    <button type="button" class="w-full p-1.5 rounded-md bg-purple-600 m-1">Confirm</button>
                 </div>
             </div>
         </div>
