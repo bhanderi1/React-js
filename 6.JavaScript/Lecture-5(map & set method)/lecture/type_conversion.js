@@ -27,8 +27,8 @@
 // console.log(typeof(z));
 
 {
-//   let x = "37" - 7;
-//   let y = "7" * 7; 
+  //   let x = "37" - 7;
+  //   let y = "7" * 7; 
   // console.log(x);
   // console.log(typeof(x));
   // console.log(y);
@@ -55,14 +55,14 @@
   // let x = [10, 50 ,30];
   // let x = [100];
   // let x = ["Hello" , "Hi"];
-  // let x =function(){};
+  let x =function(){};
   // let x = {};
-  console.log(typeof(x));
-  
+  console.log(typeof (x));
+
   // let y = (Number(x));
   // console.log(y);
   // console.log(typeof(y));
-  
+
   // let z = (String(x));
   // console.log(z);
   // console.log(typeof(z));

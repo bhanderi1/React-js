@@ -1,4 +1,4 @@
-import './App.css'
+  import './App.css'
 // import Button1 from './Buttons/Button1'
 import Crad from './Crad';
 import CardImg1 from './assets/img-2.avif'
