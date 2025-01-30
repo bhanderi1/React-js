@@ -3,7 +3,7 @@ import { COUNTRY_DATA, COUNTRY_SET } from './Constant';
 
 function* fetchCountryData() {
   try {
-    let data = yield fetch('https://srv597195.hstgr.cloud:8443/all_country/');
+    let data = yield fetch('url');
     data = yield data.json();
     console.warn('Fetched Country Data:', data);
 
