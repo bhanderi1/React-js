@@ -6,3 +6,10 @@ export const country_data = () => {
     data:"Greet"
   };
 };
+
+// export const register = (userata) => {
+//   return {
+//     type: REGISTER,
+//     payload
+//   };
+// };
