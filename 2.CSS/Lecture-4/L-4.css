@@ -1,0 +1,272 @@
+body{
+    margin:0;
+}
+
+/* accent-color */
+/* 
+    :disabled =text is not write
+    :enabled(defult)
+    ::placeholder 
+    :checked = every frist time is cheaked
+    :focus 
+    :hover
+    :required
+    :invalid
+    :valid
+    ::marker
+*/
+
+input
+{
+    /* breket and box color */
+    accent-color: red;
+}
+ 
+::placeholder{
+    /* placeholder name change color */
+    color:blue;
+    background-color: green;
+}
+/*
+input:focus
+{ 
+    border:5px solid green; 
+    outline:2px solid red;  
+    outline: none;
+    border: none; 
+}   */
+
+ input:hover{ 
+    /* corser color */
+     border: 2px solid yellow;
+     outline: 2px solid red;
+      /* outline: none;
+      border: none;  */
+} 
+
+input:invalid{
+    
+    background-color: aqua;
+}
+
+input:valid{
+    
+    background-color:chocolate;
+} 
+
+
+ul li::marker{
+    color:burlywood;
+    font-size: 20px;
+}
+
+
+ol li::marker{
+    color: cornflowerblue;
+    font-size: 20px;
+} 
+
+
+/* 
+   :red-only
+   :read-write
+   :root
+   :lang()
+*/
+/* 
+ p:read-only{
+    background-color: darkgreen;
+} 
+
+textarea:read-write{
+    color: darkkhaki;
+}
+
+:root{
+    --color-1:red;
+    --color-2:green;
+}
+.box
+{
+    height: 200px;
+    width: 200px;
+    background-color: var(--color-1);
+}   */
+/* 
+ :lang(en)
+{
+    background-color:red;
+}  */
+
+
+/* CSS pseudo class */
+/* 
+   :first-child
+   :frist-of-type
+   :last-child
+   :last-of-type
+   :nth-child()
+   :nth-last-child()
+   :nth-last-of-type()
+   :nth-of-type
+   :only-of-type
+   :only-child
+   :odd(3n)       -child charecter
+   :even(2n)      -child charecter
+   :not()         -child charecter
+   :where
+   :empty
+
+ */
+/* 
+ h1:first-child{
+    background-color: deeppink;
+    color:cornflowerblue;
+ }   
+ 
+h1:first-of-type{
+    background-color: blue;
+    color: pink;
+ }  
+
+h1:last-child{
+    background-color: burlywood;
+ } 
+
+h1:last-of-type{
+     background-color: aqua;
+ } 
+
+h1:nth-child(3)
+ {
+    background-color:palevioletred;
+ } 
+
+h1:nth-last-child(4)
+ {
+    background-color: blue;
+ } 
+
+ h1:nth-last-of-type(2){
+    background-color: coral;
+ }
+
+ h1:nth-of-type(1)
+ {
+    background-color: darkgreen;
+ }
+ 
+ h1:only-of-type
+ {
+    background-color: cornflowerblue;
+ }
+
+ h1:only-child
+ {
+    background-color: darkmagenta;
+ }
+ 
+ h1:nth-child(2n+1)
+ {
+    background-color:crimson;
+ }
+
+ h1:nth-child(2n+2)
+ {
+    background-color:darkcyan;
+ } 
+
+section:not(h1)
+ {
+    background-color: darkslategrey;
+ }   */
+
+ /* .class /id */
+ /* div:where(h1){ 
+    background-color:green;
+    color:red;
+ }
+
+ div:empty{
+    height:500px;
+    width:500px;
+    backgroun-color:green;
+ } */
+ 
+
+/* attributes selector */
+
+/* 
+     [attr]
+     [attr=value]
+     [attr~=value]  (tilde)
+     [attr|=value]  (prependicular)
+     [attr^=value]  ()
+     [attr$=value]  ()
+     [attr*=value]  ()
+*/
+
+
+input[name="firstname"]
+{
+    height: 100px;
+    width: 250px;
+    background-color: chartreuse;
+    border:2px dotted black;
+    outline: 8px solid brown;
+    display: block;
+    font-size: 30px;
+    color: white;
+    margin: 20px;
+} 
+
+div[class*="box"]
+{
+    height: 50px;
+    width: 400px;
+    background-color: cyan;
+    border:2px solid black;
+    margin-bottom:  10px;
+    font-size: 40px;
+  
+}   
+
+/* CSS PSEUDO ELEMENT */
+
+/* 
+    :: after 
+    ::before  
+    ::first-letter
+    ::first-line  
+    ::selection
+*/
+
+/* Css after and before */
+
+.heading{
+    position:relative;
+} 
+
+/* h1::before{
+    content: "";
+    height: 10px;
+    width: 185px;
+    bottom: -10px;
+    background-color: red;
+    position:absolute;
+    left: 0;
+}  */
+  
+h1:hover::before{
+    width: 190px;
+    transition: 5s;
+}   
+
+/* h1::after{
+    content: "HTML AND CSS";
+} */
+
+p::selection{
+    background-color: red;
+    color: white;
+}  

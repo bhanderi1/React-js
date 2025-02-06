@@ -1,0 +1,19 @@
+.box
+{
+    max-height: 3900px;
+    max-width: 370px;
+    border: 15px solid gray;
+}
+
+span
+{
+    font-weight: 500;
+    font-size: 15px;
+}
+p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

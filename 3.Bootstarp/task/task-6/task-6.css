@@ -1,0 +1,21 @@
+.box
+{
+    height: 550px;
+    width: 500px;
+    border: 2px solid rgb(216, 216, 216);
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 150px;
+    padding: 30px;
+}
+/* i
+{
+    position: absolute;
+    z-index: 3;
+    color: blue;
+} */
+
+.row
+{
+    padding: 15px 0;
+}

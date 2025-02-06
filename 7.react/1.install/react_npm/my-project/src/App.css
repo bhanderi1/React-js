@@ -1,0 +1,30 @@
+h1{
+    font-size: 32px;
+}
+.navbar{
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo a img{
+    height: 80px;
+}
+.nav-item ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.nav-item ul li{
+    margin-left: 50px;
+}
+.nav-item ul li a{
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+h3{
+    color: white;
+    font-size: 30px
+}

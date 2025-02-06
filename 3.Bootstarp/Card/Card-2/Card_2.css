@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(88, 86, 126);
+}
+.row
+{
+    padding: 30px;
+}
+.col
+{
+    margin: 20px;
+}
+
+.button-1
+{
+   border-radius: 0px;
+}
+
+.button-2
+{
+    border-radius: 40px;
+}
+
+.button-3
+{
+    border-radius: 0px;
+}
+
+.button-4
+{
+    border-radius: 40px;
+}
+svg
+{
+    vertical-align: middle;
+    color: red;
+   margin-left: 10px;
+
+}

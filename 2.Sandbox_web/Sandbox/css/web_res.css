@@ -1,0 +1,160 @@
+@media (min-width: 350px) {
+    .container {
+      width: 320px;
+      margin: auto;
+    }
+    .Background-img-round {
+        top: -20px;
+        z-index: 2;
+      }
+      .card-2
+      {
+        display: none;
+      }
+      .card-3
+      {
+        display: none;
+      }
+      .part-2{
+        margin-top: 100px;
+      }
+      .part-2{
+        margin-top: 0px;
+      }
+      .section-4{
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+}
+
+
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+    margin: auto;
+  }
+  .Background-img-round {
+    top: -20px;
+    z-index: 2;
+  }
+  .card-3
+  {
+    display: none;
+  }
+  .card-2
+  {
+    display: none;
+  }
+  .part-2{
+    margin-top: 100px;
+  }
+  .section-2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .section-4{
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+    margin: auto;
+  }
+  .Background-img-round {
+    top: -25px;
+    z-index: 2;
+  }
+  .card-3
+  {
+    display: none;
+  }
+  .card-2
+  {
+  display: block;
+  }
+  .part-2{
+    margin-top: 100px;
+  }
+  .section-2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .section-4{
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+    margin: auto;
+  }
+  .last-icon {
+    display: none;
+  }
+  .Background-img-round {
+    top: -20px;
+    z-index: 2;
+  }
+  .card-3
+  {
+    display: none;
+  }
+  .part-2{
+    margin-top: 100px;
+  }
+  .section-2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .section-4{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+ 
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+    margin: auto;
+  }
+  .Background-img-round {
+    top: -25px;
+    z-index: 2;
+  }
+  .card-3
+  {
+    display: block;
+  }
+  .part-2{
+    margin-top: 100px;
+  }
+  .section-2{
+    margin-top: 80px;
+    margin-bottom: 70px;
+  }
+    .section-4{
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px;
+  }
+  .part-2{
+    margin-top: 130px;
+  }
+  .section-2{
+    margin-top: 80px;
+    margin-bottom: 70px;
+  }
+  .section-4{
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}

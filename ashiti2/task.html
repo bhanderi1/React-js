@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Names Tables</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .delete-button {
+            cursor: pointer;
+            color: red;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Interactive Name List</h2>
+    <input type="text" id="nameInput" placeholder="Enter a name">
+    <button onclick="addName()">Add</button>
+    <ul id="nameList">
+        <!-- Names will be dynamically added here -->
+    </ul>
+
+    <h2>Names Grouped by First Character</h2>
+    <table id="firstCharacterTable">
+        <thead>
+            <tr>
+                <th>First Character</th>
+                <th>Names</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table body will be dynamically populated -->
+        </tbody>
+    </table>
+
+    <h2>Names Grouped by Length</h2>
+    <table id="lengthTable">
+        <thead>
+            <tr>
+                <th>Length</th>
+                <th>Names</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table body will be dynamically populated -->
+        </tbody>
+    </table>
+
+    <script src="task.js"></script>
+</body>
+</html>

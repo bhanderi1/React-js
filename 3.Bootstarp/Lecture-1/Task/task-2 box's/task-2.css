@@ -1,0 +1,36 @@
+.container
+{
+   height: 500px;
+   border: 2px solid grey;
+   display: grid;
+   grid-template-columns: auto auto auto auto auto auto auto auto;
+   padding: 10px;
+}
+.row-2
+{
+    height: 80px;
+    width: 120px;   
+    background-color: greenyellow;  
+}
+.row
+{
+    height: 150px;
+    width: 100px;
+    background-color: greenyellow;   
+}
+.row
+{
+    height: 100px;
+    width: 120px;
+    background-color: greenyellow;   
+}
+.row
+{
+    height: 100px;
+    width: 120px;
+    background-color: greenyellow;   
+}
+.div-1
+{
+    justify-content: start;
+}

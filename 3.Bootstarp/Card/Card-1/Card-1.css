@@ -1,0 +1,39 @@
+body {
+    background-color: coral;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.box-1 {
+    height: 520px;
+    width: auto;
+    margin: 30px;
+    padding: 40px;
+}
+.box-2 {
+    height: 580px;
+    position: relative;
+    padding: 40px;
+}
+
+.button-2 {
+    border-radius: 30px;
+}
+
+big {
+    font-size: 40px;
+}
+
+sup {
+    top: -2em;
+}
+
+.lebal {
+    position: absolute;
+    left: -30px;
+    top: 4%;
+    transform: rotate(-35deg);
+    padding: 8px 60px 8px 60px;
+}

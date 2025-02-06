@@ -1,0 +1,45 @@
+.box
+{
+    width: 90%;
+    height: 60%;
+    margin: auto;
+    position: relative;
+    top: 200px;
+}
+.boxes {
+    height: 100vh;
+    background-color: rgb(233, 105, 105);
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, rgb(236, 170, 49) 20%, rgb(236, 54, 85) 50%);
+
+}
+
+.accordion-button:focus
+{
+    box-shadow: none;
+} 
+
+.accordion-button:not(.collapsed)
+{
+    background-color: white;
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: none;
+    /* box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color); */
+}
+
+.accordion-body
+{
+    padding: 50px;
+}
+
+.accordion-button:not(.collapsed)::after
+{
+    background-image: url(imge/dash.svg);
+}
+.accordion-button::after{
+    background-image: url("imge/plus.svg");
+}
+

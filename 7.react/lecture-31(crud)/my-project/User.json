@@ -1,0 +1,31 @@
+{
+  "User": [
+    {
+      "id": "418a",
+      "firstname": "srushti",
+      "lastname": "bhanderi",
+      "age": "20",
+      "profession": "web",
+      "number": "9904158570",
+      "image": null
+    },
+    {
+      "id": "ed0c",
+      "firstname": "ashiti",
+      "lastname": "dhanani",
+      "age": "40",
+      "profession": "devloper",
+      "number": "9999999999",
+      "image": null
+    },
+    {
+      "id": "a1f5",
+      "firstname": "jasmi",
+      "lastname": "mulani",
+      "age": "20",
+      "profession": "devloper",
+      "number": "9999999999",
+      "image": null
+    }
+  ]
+}

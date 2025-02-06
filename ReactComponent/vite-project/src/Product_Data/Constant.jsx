@@ -1,0 +1,13 @@
+export const COUNTRY_DATA ="COUNTRY_DATA"
+export const COUNTRY_SET_DATA = "COUNTRY_SET_DATA"
+export const COUNTRY_CATEGORY_DATA = "COUNTRY_CATEGORY_DATA"
+export const COUNTRY_CATEGORY_SET_DATA = "COUNTRY_CATEGORY_SET_DATA"
+
+export const REGISTER = "REGISTER" 
+export const USER_REGISTER ="USER_REGISTER"
+export const LOGIN = "LOGIN"
+
+
+
+
+// ServiceCode API

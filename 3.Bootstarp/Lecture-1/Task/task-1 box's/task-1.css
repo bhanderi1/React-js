@@ -1,0 +1,42 @@
+.container
+{
+   border: 2px solid grey;
+}
+.col-2
+{
+    height: 35PX;
+    border-radius: 10PX;
+    background-color: greenyellow;   
+}
+.col-4
+{
+    height: 40PX;
+    border-radius: 10PX;
+    background-color: greenyellow;   
+}
+.div-2 .row 
+{
+   justify-content: end;
+}
+.div-3 .row
+{
+   justify-content: center;
+}
+.div-4 .row
+{
+  justify-content: space-between;
+}
+.div-5 .row 
+{
+  justify-content: space-around;
+}
+.div-6 .row 
+{
+   justify-content: space-around;
+}
+
+.div-8 .row 
+{
+   justify-content: space-evenly;
+}
+

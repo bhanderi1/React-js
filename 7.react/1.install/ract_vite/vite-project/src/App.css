@@ -1,0 +1,140 @@
+body{
+  height: 100vh;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  margin-top: 5px;
+}
+.navbar .logo h3{
+  margin-left: 20px;
+  font-size:30px;
+  
+}
+.nav-item ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.nav-item ul il{
+  margin-left: 15px;
+}
+.nav-item ul li a{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  padding: 55px 20px;
+}
+
+/* artical */
+.main-article{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.artical{
+  width: 50%;
+  text-align: center;
+}
+.artical h1{
+  font-size: 45px;
+  font-weight: bolder;
+}
+.artical h1 span{
+  color: blue;
+}
+.span-text{
+  color: rgb(178, 176, 176);
+}
+.artical button{
+   padding: 10px;
+   font-size: 17px;
+   border-radius: 10px;
+   margin-left: 10px;
+   margin-top: 15px;
+}
+.btn{
+  background-color: blue;
+  color: white;
+}
+.btn-1{
+  border: 2px solid blue;
+  color:blue ;
+}
+.article-img{
+  overflow: hidden;
+  padding: 10px;
+}
+.article-img img{
+  border-radius: 20px;
+}
+
+
+
+/* table */
+
+.caption{
+display: flex;
+justify-content: center;
+width: 50%;
+font-weight: bold;
+}
+table{
+  border: 2px solid black;
+  height: 30px;
+  width: 50%;
+}
+th{
+  border: 2px solid black;
+  height: 30px;
+  padding: 15px;
+  font-size: x-large;
+}
+.bg-color th{
+ background-color: blue;
+ color: white;
+}
+
+/* card */
+.card{
+  width: 20%;
+  display: flex;
+}
+.card-body{
+  height: 300px;
+  width: 290px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.dev-btn{
+  padding: 5px;
+  background-color: rgb(152, 152, 252);
+  border-radius: 10px;
+}
+.card-image img{
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* footer */
+
+.footer {
+  color: white;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+
+}
+.col{
+  width: 20%;
+  margin: auto;
+}

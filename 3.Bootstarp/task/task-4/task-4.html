@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>form-4</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="task-4.css" />
+</head>
+
+<body class="bg-dark">
+  <div class="box">
+    <h2 class="form-label">Regiser Today</h2>
+    <div class="from-text">Fill in the data below.</div>
+    <div class="row">
+      <input class="form-control" type="text" placeholder="Full Name." />
+    </div>
+    <div class="row">
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail Address" />
+    </div>
+    <div class="row">
+      <select class="form-select">
+        <option selected>Position</option>
+        <option value="1">CA</option>
+      </select>
+    </div>
+    <div class="row">
+      <input type="password" id="inputPassword5" class="form-control" placeholder="password" />
+    </div>
+    <label>Gender</label>
+    <input type="checkbox" class="btn-check" id="btn-check-1" autocomplete="off">
+    <label class="btn btn-dark border-white" for="btn-check">Male</label>
+    <input type="checkbox" class="btn-check" id="btn-check-2" autocomplete="off">
+    <label class="btn btn-dark border-white" for="btn-check">Female</label>
+    <input type="checkbox" class="btn-check" id="btn-check-3" autocomplete="off">
+    <label class="btn btn-dark border-white" for="btn-check">Secret</label>
+    <div class="row">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          I confrim that all data are correct
+        </label>
+      </div>
+    </div>
+    <input type="checkbox" class="btn-check" id="btn-check-4" checked autocomplete="off">
+    <label class="btn btn-dark" for="btn-check">Register</label>
+  </div>
+
+  <!-- validation -->
+  <form novalidate class="needs-validation">
+    <div class="box">
+      <h2 class="form-label">Regiser Today</h2>
+      <div class="mb-4">Fill in the data below.</div>
+      <div  class="mb-3">
+        <input type="text" class="form-control"  value="gvbh" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <input type="email" class="form-control"  value="" placeholder="Enter e-mail" required>
+        <div class="valid-feedback">
+          okay....
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <select class="form-select" placehoder="Position" required>
+          <option selected disabled value="">Choose...</option>
+          <option>CA</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a valid state.
+        </div>
+      </div>
+
+      <div class=" mb-3">
+        <input type="password" class="form-control" placeholder="password" required>
+        <div class="valid-feedback">
+          awsoomm!
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label>Gender</label>
+        <input type="radio" class="btn-check" id="btn-check-1" autocomplete="off">
+        <label class="btn btn-dark border-white" for="btn-check">Male</label>
+        <input type="radio" class="btn-check" id="btn-check-2" autocomplete="off">
+        <label class="btn btn-dark border-white" for="btn-check">Female</label>
+        <input type="radio" class="btn-check" id="btn-check-3" autocomplete="off">
+        <label class="btn btn-dark border-white" for="btn-check">Secret</label>
+      </div>
+
+      <div class="Position-reletive mb-3">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" required>
+          <label class="form-check-label" for="flexCheckDefault">
+            I confrim that all data are correct
+          </label>
+          <div class="invalid-feedback">
+            sorry!.
+          </div>
+        </div>
+      </div>
+
+      <!-- <input type="checkbox" class="btn-check" id="btn-check-4" checked autocomplete="on">
+      <label class="btn btn-dark" for="btn-check" type="button" for="button">Register</label> -->
+
+
+      <button class="btn btn-dark btn-outline-light">Register</button>
+    </div>
+  </form>
+
+  <script>
+
+ // Example starter JavaScript for disabling form submissions if there are invalid fields
+ (() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+
+
+
+
+
+
+
+
+  </script>
+</body>
+
+</html>

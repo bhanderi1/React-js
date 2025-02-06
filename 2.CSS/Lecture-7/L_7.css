@@ -1,0 +1,125 @@
+body{
+    margin:0;
+}
+
+/*
+    CSS TRANSFORM PROPERTIES
+    CSS TARNSITION PROPERTIES
+    CSS FILTER PROPERTIES
+    CSS ANIMATIONS
+*/
+
+
+
+/* Css 2D Transform - Examples */
+
+.translate
+{
+    height: 200px;
+    width: 150px;
+    background-color: green;
+    font-size: 45px;
+    color: white;
+    margin: 200px;
+} 
+.translate:hover
+{
+    /* transform: translateY(200px); */
+    /* roted  */
+
+     /* transform: scale(1.2);   */
+     /* small and big  */
+
+     /* transform: rotateY(120deg);  */
+     /* round roted */
+
+     /* transform: skewX(360deg);
+     transition: 10s;*/
+} 
+
+
+/* Css 3D tranform exmples */
+
+.cover
+{
+    border: 2px solid red;
+    height: 400px;
+    width: 400px;
+    margin:200px 300px;
+}
+
+.cover:hover .content
+{
+    transform: perspective(600px) rotate3d(240 ,240 ,240 ,340deg);
+    transition: 8s;
+}
+.content
+{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(94, 128, 0);
+}
+
+
+
+/* CSS Transition -examples */
+
+.main-box
+{
+    border: 5px solid black;
+    padding: 10px;
+    max-width: 1000px;
+}
+
+.transition
+{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.transition:hover{
+     /* width: 800px; */
+    /* height: 100px;  */
+    transform: translateX(800px);
+    transition-duration: 10s;
+    transition-delay: 5s;
+    /* transition-property: width; */
+    transition-timing-function: ease-out;
+}
+
+/* ============================== */
+
+/* CSS FILTER */
+/* 
+   filter :blur(1px);
+   filter :brightness(50%);
+   filter :contrast(10%);
+   filter :grayscle(100%);
+   filter :hue-rotate(360deg);
+   filter :invert(0%);
+   filter :saturate(0%);
+   filter :opacity(1);
+   filter :sepia(1);
+   filter :none;
+   filter :drop-shadow(10px -20px 1px rgb(70, 15 ,62))
+*/
+
+
+.filter{
+  
+    /* filter: blur(20px);  */
+    /* filter: brightness(100%); */
+    /* filter: contrast(70%); */
+    /* filter: grayscale(50%); */
+    /* filter: hue-rotate(360deg); */
+    /* filter: invert(20%); */
+    /* filter: saturate(50%); */
+    /* filter: opacity(0.7); */
+    /* filter: sepia(50%); */
+    /* filter: none; */
+    filter: drop-shadow(40px 40px 5px gray);
+}
+
+
+

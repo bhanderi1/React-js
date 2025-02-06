@@ -1,0 +1,117 @@
+@import 'variable';
+
+// @mixin card
+// {
+//     height: $h-4;
+//     width: $w-3;
+//     background-color: $bg-3;
+//     border: $border-1;
+//     padding: $padding-4;
+//     margin: $m-4;
+    //    text-align:center;
+//     @content;
+// }
+
+// @mixin image
+// {
+//    width: $w-1;
+//    height: $h-1;
+// }
+
+// @mixin btn
+// {
+//    padding: 10px 20px;
+//    background-color: $bg-7;
+//    color: $color-1;
+//    border-radius: $border-radius-40;
+// }
+
+// .box
+// {
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// .card-1
+// {
+//     @include card{
+//       
+//     }
+// }
+// .card-2
+// {
+//     @include card{
+//         background-color: $bg-4;
+//         color: $color-1;
+//     }
+// }
+// .card-3
+// {
+//     @include card{
+
+//     }
+// }
+
+// img
+// {
+//     @include image;
+// }
+
+// button
+// {
+//     @include btn;
+// }
+
+
+// sass mixing method
+
+%box {
+    height: $h-4;
+    width: $w-3;
+    background-color: $bg-3;
+    border: $border-1;
+    padding: $padding-4;
+    margin: $m-4;
+    text-align: center;
+}
+%img
+{
+    width: $w-1;
+    height: $h-1;
+}
+%btn
+{
+       padding: 10px 20px;
+       background-color: $bg-7;
+       color: $color-1;
+       border-radius: $border-radius-40;
+}
+.box
+{
+    display: flex;
+}
+.card-1
+{
+    @extend %box;
+   
+}
+.card-2
+{
+    @extend %box;
+    background-color: $bg-4;
+     color: $color-1;
+}
+.card-3
+{
+    @extend %box;
+}
+img
+{
+    @extend %img;
+}
+button
+{
+    @extend %btn;
+}
+
+

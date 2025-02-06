@@ -1,0 +1,18 @@
+body{
+    background: rgb(79, 166, 200);
+}
+h4
+{
+    margin: 30px 0;
+}
+.one{
+    height: auto;
+    width: 500px;
+    border: 2px solid white;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+}
+
+
+

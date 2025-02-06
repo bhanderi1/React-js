@@ -1,0 +1,69 @@
+@import 'variable';
+
+
+// nesting
+// .box-1
+// {
+//     height: $h-300;
+//     width: $w-300;
+//     background-color: $bg-1;
+//     .box-2
+//     {
+//         height: $h-200;
+//         width: $w-200;
+//         background-color: $bg-2;
+        
+//         .box-3
+//         {
+//             height: $h-100;
+//             width: $w-100;
+//             background-color: $bg-5;
+//         }
+    
+//     }
+// }
+
+
+
+// mixing
+
+@mixin box{
+    height: $h-400;
+    width: $w-400;
+    background-color: $bg-1;
+    @content;
+}
+
+.box-1
+{
+    @include box
+}
+
+.box-2
+{
+    @include box
+    {
+        background-color:$bg-2;
+        width: $w-300;
+        height: $h-300;
+    }
+}
+
+.box-3
+{
+    @include box
+    {
+        background-color:$bg-3;
+        width: $w-200;
+        height: $h-200;
+    }
+}
+.box-4
+{
+    @include box
+    {
+        background-color:$bg-4;
+        width: $w-100;
+        height: $h-100;
+    }
+}

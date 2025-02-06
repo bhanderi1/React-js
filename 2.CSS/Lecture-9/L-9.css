@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family:  'JetBrains Mono', monospace;
+}
+
+/* Css calc() */
+
+.demo
+{
+    height: auto;
+    width: 100vw;
+    width: calc(90vw - 5vw);
+    background-color: yellow;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+.heading
+{
+    font-size: 65px;
+    font-size: calc(10vw + 10px);
+}
+
+.demo-1
+{
+    height: 100px;
+    width: 50vw;
+    /* width: calc(70vw - 200px); */
+    background-color: orange;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.demo-2
+{
+    height: 100px;
+    width: 600px;
+    background-color: green;
+    border: 2px solid black;
+}
+
+/* css Meadia Queroes */

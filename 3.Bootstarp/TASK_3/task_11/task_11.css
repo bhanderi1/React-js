@@ -1,0 +1,22 @@
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(192, 190, 190);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.box
+{
+    background-color: white;
+    height: auto;
+    max-width: 900px;
+}
+
+button
+{
+    display: flex;
+    justify-content: center;
+}
